@@ -1,0 +1,257 @@
+[
+  {
+    "customerId": "PE01000123456",
+    "fullName": "Nguyễn Văn An",
+    "phone": "0912.345.678",
+    "address": "Số 45 Phố Tràng Tiền, Phường Tràng Tiền, Quận Hoàn Kiếm, Hà Nội",
+    "district": "Quận Hoàn Kiếm",
+    "city": "Hà Nội",
+    "customerType": "Sinh hoạt gia đình",
+    "transformerSubstation": "TBA Hoàn Kiếm 04 - Tuyến 472 E1.1",
+    "meterReading": {
+      "meterId": "EM-HN-0098231",
+      "meterType": "Điện tử 1 pha Hữu Hồng",
+      "prevReadingDate": "15/07/2026",
+      "currReadingDate": "15/08/2026",
+      "prevIndexKwh": 14250,
+      "currIndexKwh": 14535,
+      "consumptionKwh": 285,
+      "lastTransmissionStatus": "Bình thường"
+    },
+    "currentBill": {
+      "billCode": "HD-202608-0123456",
+      "month": "08/2026",
+      "fromDate": "16/07/2026",
+      "toDate": "15/08/2026",
+      "totalKwh": 285,
+      "tierDetails": [
+        { "tier": 1, "name": "Bậc 1 (0 - 50 kWh)", "kwh": 50, "unitPrice": 1893, "amount": 94650 },
+        { "tier": 2, "name": "Bậc 2 (51 - 100 kWh)", "kwh": 50, "unitPrice": 1956, "amount": 97800 },
+        { "tier": 3, "name": "Bậc 3 (101 - 200 kWh)", "kwh": 100, "unitPrice": 2271, "amount": 227100 },
+        { "tier": 4, "name": "Bậc 4 (201 - 300 kWh)", "kwh": 85, "unitPrice": 2860, "amount": 243100 }
+      ],
+      "subtotal": 662650,
+      "vatRate": 0.08,
+      "vatAmount": 53012,
+      "totalAmount": 715662,
+      "paymentStatus": "CHƯA THANH TOÁN",
+      "dueDate": "25/08/2026"
+    },
+    "paymentHistory": [
+      {
+        "billCode": "HD-202607-0123456",
+        "month": "07/2026",
+        "amount": 685400,
+        "paidAt": "22/07/2026 09:15",
+        "channel": "VNPAY QR",
+        "transactionRef": "VNP202607229812",
+        "status": "Thành công"
+      },
+      {
+        "billCode": "HD-202606-0123456",
+        "month": "06/2026",
+        "amount": 890200,
+        "paidAt": "20/06/2026 14:30",
+        "channel": "Trích nợ tự động Vietcombank",
+        "transactionRef": "VCB202606201123",
+        "status": "Thành công"
+      },
+      {
+        "billCode": "HD-202605-0123456",
+        "month": "05/2026",
+        "amount": 542000,
+        "paidAt": "21/05/2026 11:05",
+        "channel": "MoMo",
+        "transactionRef": "MM202605210984",
+        "status": "Thành công"
+      }
+    ],
+    "outageSchedule": {
+      "hasOutage": true,
+      "scheduleId": "SCH-2026-HK-089",
+      "areaCode": "HK-TT-01",
+      "substation": "TBA Hoàn Kiếm 04",
+      "startTime": "05:00 Thứ Bảy (05/09/2026)",
+      "endTime": "19:00 Thứ Bảy (05/09/2026)",
+      "durationHours": 14,
+      "reason": "Thay thế máy biến áp T2 quá tải và nâng cấp lộ cáp ngầm trung thế 22kV",
+      "affectedCustomersCount": 320,
+      "noticePublishedDate": "28/08/2026",
+      "compensationEligible": true,
+      "status": "Đã lên lịch"
+    },
+    "activeTickets": ["TK-HN-2026-0819 (Đã xử lý xong)"]
+  },
+  {
+    "customerId": "PE02000789012",
+    "fullName": "Trần Thị Mai",
+    "phone": "0988.765.432",
+    "address": "Căn hộ 12.04 Chung cư Vinhome Central Park, Quận Bình Thạnh, TP. Hồ Chí Minh",
+    "district": "Quận Bình Thạnh",
+    "city": "TP. Hồ Chí Minh",
+    "customerType": "Sinh hoạt gia đình",
+    "transformerSubstation": "TBA Vinhome T12 - Tuyến 22kV Tân Cảng",
+    "meterReading": {
+      "meterId": "EM-SG-0044129",
+      "meterType": "Điện tử 1 pha Vinasino",
+      "prevReadingDate": "10/07/2026",
+      "currReadingDate": "10/08/2026",
+      "prevIndexKwh": 8920,
+      "currIndexKwh": 9340,
+      "consumptionKwh": 420,
+      "lastTransmissionStatus": "Bình thường"
+    },
+    "currentBill": {
+      "billCode": "HD-202608-0789012",
+      "month": "08/2026",
+      "fromDate": "11/07/2026",
+      "toDate": "10/08/2026",
+      "totalKwh": 420,
+      "tierDetails": [
+        { "tier": 1, "name": "Bậc 1 (0 - 50 kWh)", "kwh": 50, "unitPrice": 1893, "amount": 94650 },
+        { "tier": 2, "name": "Bậc 2 (51 - 100 kWh)", "kwh": 50, "unitPrice": 1956, "amount": 97800 },
+        { "tier": 3, "name": "Bậc 3 (101 - 200 kWh)", "kwh": 100, "unitPrice": 2271, "amount": 227100 },
+        { "tier": 4, "name": "Bậc 4 (201 - 300 kWh)", "kwh": 100, "unitPrice": 2860, "amount": 286000 },
+        { "tier": 5, "name": "Bậc 5 (301 - 400 kWh)", "kwh": 100, "unitPrice": 3197, "amount": 319700 },
+        { "tier": 6, "name": "Bậc 6 (từ 401 kWh)", "kwh": 20, "unitPrice": 3302, "amount": 66040 }
+      ],
+      "subtotal": 1091290,
+      "vatRate": 0.08,
+      "vatAmount": 87303,
+      "totalAmount": 1178593,
+      "paymentStatus": "CHƯA THANH TOÁN",
+      "dueDate": "20/08/2026"
+    },
+    "paymentHistory": [
+      {
+        "billCode": "HD-202607-0789012",
+        "month": "07/2026",
+        "amount": 1045000,
+        "paidAt": "18/07/2026 15:40",
+        "channel": "App CSKH EVNHCMC (ZaloPay)",
+        "transactionRef": "ZP202607184491",
+        "status": "Thành công"
+      }
+    ],
+    "outageSchedule": {
+      "hasOutage": false,
+      "areaCode": "BT-TC-02",
+      "substation": "TBA Vinhome T12"
+    },
+    "activeTickets": []
+  },
+  {
+    "customerId": "PE03000555666",
+    "fullName": "Lê Hoàng Nam",
+    "phone": "0905.112.334",
+    "address": "Số 128 Đường Lê Duẩn, Phường Thạch Thang, Quận Hải Châu, Đà Nẵng",
+    "district": "Quận Hải Châu",
+    "city": "Đà Nẵng",
+    "customerType": "Sinh hoạt gia đình",
+    "transformerSubstation": "TBA Hải Châu 02 - Lộ 471 E2",
+    "meterReading": {
+      "meterId": "EM-DN-0077123",
+      "meterType": "Điện tử 1 pha CPC EMEC",
+      "prevReadingDate": "05/07/2026",
+      "currReadingDate": "05/08/2026",
+      "prevIndexKwh": 5120,
+      "currIndexKwh": 5310,
+      "consumptionKwh": 190,
+      "lastTransmissionStatus": "Bình thường"
+    },
+    "currentBill": {
+      "billCode": "HD-202608-0555666",
+      "month": "08/2026",
+      "fromDate": "06/07/2026",
+      "toDate": "05/08/2026",
+      "totalKwh": 190,
+      "tierDetails": [
+        { "tier": 1, "name": "Bậc 1 (0 - 50 kWh)", "kwh": 50, "unitPrice": 1893, "amount": 94650 },
+        { "tier": 2, "name": "Bậc 2 (51 - 100 kWh)", "kwh": 50, "unitPrice": 1956, "amount": 97800 },
+        { "tier": 3, "name": "Bậc 3 (101 - 200 kWh)", "kwh": 90, "unitPrice": 2271, "amount": 204390 }
+      ],
+      "subtotal": 396840,
+      "vatRate": 0.08,
+      "vatAmount": 31747,
+      "totalAmount": 428587,
+      "paymentStatus": "ĐÃ THANH TOÁN",
+      "dueDate": "15/08/2026",
+      "paymentChannel": "BIDV SmartBanking",
+      "paymentDate": "12/08/2026 10:22"
+    },
+    "paymentHistory": [
+      {
+        "billCode": "HD-202608-0555666",
+        "month": "08/2026",
+        "amount": 428587,
+        "paidAt": "12/08/2026 10:22",
+        "channel": "BIDV SmartBanking",
+        "transactionRef": "BIDV202608129841",
+        "status": "Thành công"
+      }
+    ],
+    "outageSchedule": {
+      "hasOutage": false,
+      "areaCode": "HC-TT-05",
+      "substation": "TBA Hải Châu 02"
+    },
+    "activeTickets": []
+  },
+  {
+    "customerId": "PE04000999888",
+    "fullName": "Công ty TNHH Cơ Khí & Thương Mại Tiến Phát",
+    "phone": "028.3756.9999",
+    "address": "Khu công nghiệp Tân Tạo, Phường Tân Tạo A, Quận Bình Tân, TP. Hồ Chí Minh",
+    "district": "Quận Bình Tân",
+    "city": "TP. Hồ Chí Minh",
+    "customerType": "Sản xuất công nghiệp",
+    "transformerSubstation": "TBA Chuyên dùng Tiến Phát 560kVA - Tuyến 110kV Tân Tạo",
+    "meterReading": {
+      "meterId": "EM-3P-SG-889912",
+      "meterType": "Điện tử 3 pha 3 giá Elster A1700",
+      "prevReadingDate": "01/07/2026",
+      "currReadingDate": "01/08/2026",
+      "prevIndexKwh": 125400,
+      "currIndexKwh": 139800,
+      "consumptionKwh": 14400,
+      "lastTransmissionStatus": "Bình thường"
+    },
+    "currentBill": {
+      "billCode": "HD-202608-0999888",
+      "month": "08/2026",
+      "fromDate": "02/07/2026",
+      "toDate": "01/08/2026",
+      "totalKwh": 14400,
+      "tierDetails": [
+        { "tier": 1, "name": "Giờ bình thường (8.500 kWh)", "kwh": 8500, "unitPrice": 1738, "amount": 14773000 },
+        { "tier": 2, "name": "Giờ thấp điểm (4.200 kWh)", "kwh": 4200, "unitPrice": 1133, "amount": 4758600 },
+        { "tier": 3, "name": "Giờ cao điểm (1.700 kWh)", "kwh": 1700, "unitPrice": 3171, "amount": 5390700 }
+      ],
+      "subtotal": 24922300,
+      "vatRate": 0.08,
+      "vatAmount": 1993784,
+      "totalAmount": 26916084,
+      "paymentStatus": "ĐÃ THANH TOÁN",
+      "dueDate": "10/08/2026",
+      "paymentChannel": "Ủy nhiệm chi Vietinbank",
+      "paymentDate": "08/08/2026 14:10"
+    },
+    "paymentHistory": [
+      {
+        "billCode": "HD-202608-0999888",
+        "month": "08/2026",
+        "amount": 26916084,
+        "paidAt": "08/08/2026 14:10",
+        "channel": "Ủy nhiệm chi Vietinbank",
+        "transactionRef": "CTG202608081198",
+        "status": "Thành công"
+      }
+    ],
+    "outageSchedule": {
+      "hasOutage": false,
+      "areaCode": "BT-TT-09",
+      "substation": "TBA Chuyên dùng Tiến Phát 560kVA"
+    },
+    "activeTickets": []
+  }
+]

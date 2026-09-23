@@ -1,0 +1,66 @@
+[
+  {
+    "id": "p-type1-safety",
+    "type": "TYPE_1_RAG_ONLY",
+    "typeLabel": "Type 1: Tra cứu Quy định (RAG)",
+    "title": "An toàn khi đứt dây điện",
+    "text": "Khi phát hiện dây điện đứt rơi xuống đất hoặc đường ngập nước, tôi cần làm gì để đảm bảo an toàn?",
+    "expectedBehavior": "Chỉ dùng RAG tra cứu tài liệu QĐ-01/2025/ATĐ-EVN và QT-02/2024/SCD-EVN, trích dẫn khoảng cách 10m và gọi 19001909. Không gọi Tool cá nhân."
+  },
+  {
+    "id": "p-type1-tariff",
+    "type": "TYPE_1_RAG_ONLY",
+    "typeLabel": "Type 1: Biểu giá điện (RAG)",
+    "title": "Cách tính giá điện bậc thang",
+    "text": "Biểu giá điện sinh hoạt 6 bậc thang hiện hành tính như thế nào? Nếu dùng 250 kWh thì tiền điện tính ra sao?",
+    "expectedBehavior": "RAG tra cứu QĐ-05/2024/BG-BCT, phân tích chi tiết 6 bậc giá và ví dụ tính toán lũy tiến 250 kWh."
+  },
+  {
+    "id": "p-type2-bill",
+    "type": "TYPE_2_TOOL_ONLY",
+    "typeLabel": "Type 2: Dữ liệu Khách hàng (Tool)",
+    "title": "Tra cứu tiền điện tháng này",
+    "text": "Kiểm tra giúp tôi hóa đơn tiền điện tháng này của mã khách hàng PE01000123456 là bao nhiêu?",
+    "expectedBehavior": "Agent gọi tool `get_current_bill(customerId='PE01000123456')`, lấy thông tin 285 kWh = 715.662đ, trạng thái Chưa thanh toán. Không dùng static docs."
+  },
+  {
+    "id": "p-type2-meter",
+    "type": "TYPE_2_TOOL_ONLY",
+    "typeLabel": "Type 2: Chỉ số công tơ (Tool)",
+    "title": "Xem chỉ số công tơ và sản lượng",
+    "text": "Mã khách hàng PE02000789012 tháng vừa rồi dùng bao nhiêu kWh điện và số công tơ hiện tại là bao nhiêu?",
+    "expectedBehavior": "Agent gọi tool `get_meter_reading(customerId='PE02000789012')`, trả về số cũ 8920, số mới 9340, sản lượng 420 kWh."
+  },
+  {
+    "id": "p-type3-outage-compensation",
+    "type": "TYPE_3_MULTI_STEP",
+    "typeLabel": "Type 3: Đa bước (RAG + Tool)",
+    "title": "Lịch cắt điện & Chính sách bồi thường",
+    "text": "Khu vực của tôi (PE01000123456) tuần này có bị cắt điện bảo trì không? Nếu có thì tôi có được hỗ trợ hay bồi thường gì không?",
+    "expectedBehavior": "Bước 1: Gọi tool `check_maintenance_outage` -> phát hiện cắt điện 14 giờ (thứ Bảy). Bước 2: Kích hoạt RAG tra cứu QĐ-07/2024/BTTH-EVN và QĐ-04/2024/BT-EVN. Bước 3: Tổng hợp trả lời giảm 10% tiền điện bậc 1."
+  },
+  {
+    "id": "p-type3-meter-increase",
+    "type": "TYPE_3_MULTI_STEP",
+    "typeLabel": "Type 3: Đa bước (RAG + Tool)",
+    "title": "Hóa đơn tăng cao & Phúc tra",
+    "text": "Tôi là PE01000123456 thấy tiền điện tháng này tăng, hãy kiểm tra hóa đơn và hướng dẫn thủ tục khiếu nại kiểm tra công tơ nếu nghi ngờ chạy sai.",
+    "expectedBehavior": "Gọi tool `get_current_bill` để lấy số tiền & sản lượng, đồng thời kích hoạt RAG tra cứu tài liệu HD-08/2024/TKĐ-EVN để hướng dẫn quy trình phúc tra công tơ trong 24h."
+  },
+  {
+    "id": "p-type4-stock",
+    "type": "TYPE_4_OUT_OF_SCOPE",
+    "typeLabel": "Type 4: Ngoài phạm vi (Guardrail)",
+    "title": "Mua cổ phiếu / Đầu tư tài chính",
+    "text": "Tôi muốn mua cổ phiếu tập đoàn EVN hoặc vay vốn tín chấp qua hợp đồng mua bán điện thì làm ở đâu?",
+    "expectedBehavior": "Hệ thống phát hiện câu hỏi nằm ngoài phạm vi tri thức điện lực và nghiệp vụ trợ lý, từ chối lịch sự, tránh ảo giác, cung cấp nút Human Handoff."
+  },
+  {
+    "id": "p-type4-gold",
+    "type": "TYPE_4_OUT_OF_SCOPE",
+    "typeLabel": "Type 4: Ngoài phạm vi (Guardrail)",
+    "title": "Hỏi giá vàng / Thời tiết chung",
+    "text": "Giá vàng SJC hôm nay bao nhiêu một lượng và tư vấn giúp tôi cách đầu tư bất động sản?",
+    "expectedBehavior": "Từ chối trả lời do hoàn toàn ngoài phạm vi CSKH Điện lực EVN, hướng dẫn khách hàng các dịch vụ hỗ trợ của EVN."
+  }
+]

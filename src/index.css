@@ -1,0 +1,174 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --bg-primary: #f8fafc;
+    --bg-secondary: #ffffff;
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --border-color: #e2e8f0;
+    --accent-electric: #0284c7;
+    --accent-copper: #ea580c;
+  }
+
+  .dark {
+    --bg-primary: #070a12;
+    --bg-secondary: #0b1120;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --border-color: rgba(255, 255, 255, 0.08);
+    --accent-electric: #38bdf8;
+    --accent-copper: #f97316;
+  }
+
+  body {
+    font-family: var(--font-inter);
+  }
+}
+
+/* =========================================================================
+   CINEMATIC GLASSMORPHISM & UTILITY CLASSES
+   ========================================================================= */
+
+/* Dark Cinematic Overlay over background video */
+.cinematic-overlay {
+  background: linear-gradient(
+    180deg,
+    rgba(3, 7, 18, 0.45) 0%,
+    rgba(7, 10, 18, 0.82) 40%,
+    rgba(7, 10, 18, 0.96) 100%
+  );
+}
+
+/* Glass Panels */
+.glass-panel {
+  background: rgba(11, 17, 32, 0.72);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card {
+  background: rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.glass-card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.glass-card-hover:hover {
+  transform: translateY(-2px);
+  background: rgba(22, 32, 56, 0.82);
+  border-color: rgba(56, 189, 248, 0.35);
+  box-shadow: 0 12px 30px -10px rgba(14, 165, 233, 0.2);
+}
+
+.glass-nav {
+  background: rgba(7, 10, 18, 0.82);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Glass Outline Button (Inverts on hover like reference prompt) */
+.glass-btn-outline {
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.03);
+  color: #ffffff;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.glass-btn-outline:hover {
+  background: #ffffff;
+  color: #090d16;
+  border-color: #ffffff;
+  box-shadow: 0 8px 25px -5px rgba(255, 255, 255, 0.35);
+}
+
+/* Electric & Copper Glows */
+.electric-glow {
+  box-shadow: 0 0 25px -5px rgba(14, 165, 233, 0.4);
+}
+
+.copper-glow {
+  box-shadow: 0 0 25px -5px rgba(249, 115, 22, 0.4);
+}
+
+.electric-border {
+  border: 1px solid rgba(56, 189, 248, 0.32);
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.08) 0%, rgba(15, 23, 42, 0.85) 100%);
+}
+
+.copper-border {
+  border: 1px solid rgba(249, 115, 22, 0.32);
+  background: linear-gradient(135deg, rgba(249, 115, 22, 0.08) 0%, rgba(15, 23, 42, 0.85) 100%);
+}
+
+/* =========================================================================
+   ANIMATIONS
+   ========================================================================= */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-float {
+  animation: floatSlow 5s ease-in-out infinite;
+}
+
+/* Stagger animation utilities */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+
+/* =========================================================================
+   SCROLLBARS (Cinematic Minimalist)
+   ========================================================================= */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.4);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+

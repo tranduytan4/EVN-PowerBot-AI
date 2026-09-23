@@ -1,0 +1,310 @@
+[
+  {
+    "id": "doc-01",
+    "docCode": "QĐ-01/2025/ATĐ-EVN",
+    "title": "Quy chuẩn An toàn điện & Xử lý Tình huống Khẩn cấp trên Lưới điện",
+    "department": "Ban Kỹ thuật & An toàn EVN",
+    "effectiveDate": "01/01/2025",
+    "docType": "Quy chuẩn kỹ thuật",
+    "category": "An toàn điện",
+    "summary": "Quy định bắt buộc về khoảng cách an toàn, xử lý khi phát hiện sự cố đứt dây, đổ cột, cháy nổ thiết bị điện ngoài trời và trong nhà.",
+    "content": "Quy chuẩn An toàn điện và Xử lý Khẩn cấp trên Lưới điện Quốc gia. Ban hành theo Quyết định số 01/2025/QĐ-ATĐ của Tập đoàn Điện lực. Điều 1: Khoảng cách an toàn phóng điện với đường dây cao thế và trung thế. Đối với đường dây 22kV, khoảng cách an toàn tối thiểu là 2.0 mét. Đối với đường dây 110kV là 4.0 mét, đường dây 220kV là 6.0 mét và 500kV là 8.0 mét. Điều 2: Xử lý khi phát hiện dây điện đứt rơi xuống đất hoặc vướng vào cây cối. Tuyệt đối không được đến gần trong phạm vi bán kính 10 mét tính từ điểm dây chạm đất. Giữ nguyên hiện trường, cảnh báo cho người xung quanh không lại gần. Gọi ngay số điện thoại khẩn cấp 19001909 hoặc 114 để lực lượng điều độ điện lực cắt điện khẩn cấp. Điều 3: Xử lý sự cố chập cháy thiết bị điện gia đình. Cần lập tức ngắt cầu dao tổng (Aptomat/CB). Dùng bình cứu hỏa khí CO2 hoặc bột chữa cháy chuyên dụng cho thiết bị điện. Tuyệt đối không dùng nước dập lửa khi chưa ngắt nguồn điện hoàn toàn. Điều 4: An toàn điện trong mùa mưa bão ngập lụt. Khi nước ngập đến sàn nhà hoặc mép ổ cắm, phải ngắt cầu dao nhánh và cầu dao tổng, không chạm tay ướt vào thiết bị điện.",
+    "sections": [
+      {
+        "heading": "Điều 1: Khoảng cách an toàn phóng điện lưới điện cao thế",
+        "text": "Đối với đường dây 22kV, khoảng cách an toàn tối thiểu là 2.0m. Đối với đường dây 110kV là 4.0m, đường dây 220kV là 6.0m và đường dây 500kV là 8.0m. Mọi hành vi thả diều, câu cá, xây dựng công trình vi phạm khoảng cách hành lang lưới điện đều bị nghiêm cấm và xử phạt theo Nghị định 134/2013/NĐ-CP."
+      },
+      {
+        "heading": "Điều 2: Xử lý khi phát hiện sự cố đứt dây điện rơi xuống đất",
+        "text": "Khi phát hiện dây điện đứt rơi xuống đường hoặc ruộng ngập nước, người dân phải giữ khoảng cách an toàn tối thiểu 10 mét tính từ điểm chạm đất để tránh điện áp bước. Cảnh báo những người xung quanh không tiến lại gần. Liên hệ ngay đường dây nóng 19001909 (Trung tâm CSKH EVN) hoặc công an xã/phường gần nhất để cô lập sự cố. Không tự ý dùng gậy hoặc vật dụng kéo dây điện."
+      },
+      {
+        "heading": "Điều 3: An toàn phòng chống cháy nổ do chập điện gia đình",
+        "text": "Khi xảy ra sự cố chập cháy thiết bị điện, bước đầu tiên là ngắt ngay Aptomat (cầu dao tổng). Sử dụng bình chữa cháy khí CO2 hoặc bình bột chữa cháy loại C. Tuyệt đối không té nước dập lửa khi chưa cắt điện vì nước dẫn điện gây giật chết người. Nếu đám cháy lan rộng vượt tầm kiểm soát, gọi ngay Cảnh sát PCCC 114."
+      },
+      {
+        "heading": "Điều 4: An toàn sử dụng điện trong mùa mưa bão ngập úng",
+        "text": "Trong mùa mưa bão, khi nước ngập vào nhà đến vị trí ổ cắm điện hoặc tủ phân phối điện, chủ hộ bắt buộc phải ngắt cầu dao tổng. Không chạm vào cột điện, trạm biến áp hoặc dây chằng néo cột điện trên đường ngập. Khi nước rút, cần để các thiết bị khô ráo hoàn toàn và kiểm tra đo điện trở cách điện trước khi đóng điện trở lại."
+      }
+    ]
+  },
+  {
+    "id": "doc-02",
+    "docCode": "QT-02/2024/SCD-EVN",
+    "title": "Quy trình Tiếp nhận và Xử lý Báo Mất điện Khẩn cấp",
+    "department": "Trung tâm Chăm sóc Khách hàng EVN",
+    "effectiveDate": "15/06/2024",
+    "docType": "Quy trình vận hành",
+    "category": "Dịch vụ khách hàng",
+    "summary": "Quy trình 4 bước tiếp nhận phản ánh mất điện qua Tổng đài 19001909, App CSKH, Zalo OA và phân phối lệnh điều độ tự động.",
+    "content": "Quy trình Tiếp nhận và Xử lý Báo Mất điện Khẩn cấp toàn hệ thống EVN. Bước 1: Tiếp nhận thông tin. Khách hàng thông báo mất điện qua hotline 19001909, App EVN CSKH hoặc Cổng Dịch vụ công Quốc gia. Cung cấp Mã khách hàng (PE...), địa chỉ và mô tả hiện tượng (mất điện toàn khu vực hay mất điện riêng gia đình, có tiếng nổ hay mùi khét không). Bước 2: Phân loại sự cố. Hệ thống tự động kiểm tra trạng thái trạm biến áp phân phối qua hệ thống SCADA. Nếu mất điện diện rộng do sự cố đường dây, hệ thống sẽ kích hoạt tin nhắn SMS thông báo dự kiến giờ có điện lại. Nếu mất điện đơn lẻ từng hộ, phiếu công tác sẽ tự động chuyển đến Đội Quản lý vận hành khu vực. Bước 3: Xuất quân xử lý. Đội sửa chữa lưu động có mặt tại hiện trường trong vòng tối đa 30 phút ở đô thị và 60 phút ở nông thôn. Bước 4: Nghiệm thu và phản hồi. Sau khi đóng điện, hệ thống gửi tin nhắn xác nhận hoàn thành đến số điện thoại khách hàng.",
+    "sections": [
+      {
+        "heading": "Bước 1: Tiếp nhận và xác thực thông tin báo mất điện",
+        "text": "Khách hàng báo mất điện qua 4 kênh chính: Tổng đài CSKH 19001909 (phục vụ 24/7), Ứng dụng di động EVN CSKH, Cổng Zalo OA Điện lực, hoặc Cổng Dịch vụ Công Quốc gia. Khách hàng cần cung cấp Mã khách hàng in trên hóa đơn (dạng PE...) và số điện thoại liên hệ để theo dõi tiến độ xử lý."
+      },
+      {
+        "heading": "Bước 2: Phân loại sự cố và điều phối tự động",
+        "text": "Hệ thống SCADA tự động tra cứu trạng thái lưới điện tại trạm biến áp phân phối. Nếu sự cố mất điện diện rộng theo lộ đường dây, hệ thống tự động gộp các khiếu nại cùng khu vực và cập nhật thời gian dự kiến khôi phục. Nếu là sự cố mất điện nhánh hộ gia đình (nhảy CB nhánh, đứt chì nhánh), hệ thống phát lệnh trực tiếp đến máy tính bảng của đội sửa chữa trực ban."
+      },
+      {
+        "heading": "Bước 3: Thời gian tiếp cận và xử lý tại hiện trường",
+        "text": "Quy định thời gian có mặt tại hiện trường kể từ khi nhận tin báo: Khu vực nội thành đô thị tối đa 30 phút; khu vực ngoại thành và nông thôn tối đa 60 phút; khu vực miền núi, hải đảo tối đa 120 phút. Đội sửa chữa phải kiểm tra bút thử điện, tuân thủ phiếu công tác an toàn trước khi thao tác."
+      },
+      {
+        "heading": "Bước 4: Hoàn thành sửa chữa và thông báo cho khách hàng",
+        "text": "Sau khi khôi phục cấp điện, nhân viên sửa chữa cập nhật trạng thái 'Hoàn thành' trên phần mềm OMS (Outage Management System). Tổng đài tự động gửi tin nhắn SMS hoặc thông báo qua App CSKH đến khách hàng để xác nhận nguồn điện đã ổn định."
+      }
+    ]
+  },
+  {
+    "id": "doc-03",
+    "docCode": "QĐ-03/2024/TG-EVN",
+    "title": "Quy định Thời gian Khôi phục Cấp điện theo Cấp độ Sự cố",
+    "department": "Ban Điều độ Hệ thống Điện",
+    "effectiveDate": "01/03/2024",
+    "docType": "Quy định dịch vụ",
+    "category": "Điều độ vận hành",
+    "summary": "Thời gian tối đa để khôi phục điện phân theo 4 cấp độ: Sự cố nhẹ tại trạm, sự cố đứt dây hạ thế, sự cố máy biến áp, và thiên tai bão lũ.",
+    "content": "Quy định chuẩn dịch vụ cấp điện EVN về Thời gian Khôi phục Điện. Cấp độ 1 (Sự cố nhánh hạ thế đơn lẻ, nhảy chì, cháy công tơ): Thời gian khôi phục tối đa không quá 02 giờ kể từ khi tiếp nhận thông tin. Cấp độ 2 (Sự cố nhảy Aptomat tổng trạm biến áp phân phối, đứt dây dẫn hạ thế lộ chính): Thời gian khôi phục tối đa không quá 04 giờ. Cấp độ 3 (Sự cố hỏng máy biến áp phân phối, gãy cột điện trung thế cần thay thế thiết bị): Thời gian khôi phục tối đa không quá 08 giờ trong điều kiện thời tiết bình thường. Cấp độ 4 (Sự cố thiên tai bất khả kháng như bão lớn, ngập lụt, sét đánh diện rộng): Ưu tiên khôi phục phụ tải quan trọng (bệnh viện, nhà máy nước sạch, cơ quan hành chính) trong 06 giờ; khu vực dân cư khôi phục từng phần trong vòng 24 đến 48 giờ sau khi nước rút hoặc bão tan.",
+    "sections": [
+      {
+        "heading": "Cấp độ 1: Sự cố hạ thế nhánh và công tơ hộ gia đình",
+        "text": "Bao gồm: đứt dây sau công tơ, nổ chì hộp công tơ, hỏng aptomat nhánh. Thời gian khôi phục tiêu chuẩn: Không quá 2 giờ. Nhân viên kỹ thuật thay thế vật tư tiêu hao miễn phí thuộc tài sản ngành điện."
+      },
+      {
+        "heading": "Cấp độ 2: Sự cố đường trục hạ thế và trạm biến áp phân phối",
+        "text": "Bao gồm: quá tải nhảy rơle máy cắt trạm biến áp, ngắn mạch nhánh trục chính. Thời gian khôi phục tiêu chuẩn: Không quá 4 giờ. Điều độ viên thực hiện chuyển nguồn qua các lộ liên lạc mạch vòng nếu có."
+      },
+      {
+        "heading": "Cấp độ 3: Sự cố trung thế và hỏng hóc thiết bị chính",
+        "text": "Bao gồm: sét đánh thủng sứ cách điện trung áp 22kV, cháy máy biến áp phân phối, gãy đổ cột điện do va chạm giao thông. Thời gian khôi phục tiêu chuẩn: Không quá 8 giờ. Điều động máy biến áp dự phòng lưu động để cấp điện tạm thời cho dân cư."
+      },
+      {
+        "heading": "Cấp độ 4: Tình huống bất khả kháng do thiên tai, bão lũ",
+        "text": "Đối với bão cấp 9 trở lên hoặc ngập úng diện rộng: Tạm ngừng cấp điện chủ động để đảm bảo an toàn tính mạng nhân dân. Sau khi bão đi qua hoặc nước rút, ưu tiên cấp điện phụ tải loại 1 (bệnh viện, bơm tiêu úng, cơ quan chỉ huy) trong 6 giờ; hoàn tất khôi phục 100% khách hàng trong 24 đến 48 giờ."
+      }
+    ]
+  },
+  {
+    "id": "doc-04",
+    "docCode": "QĐ-04/2024/BT-EVN",
+    "title": "Quy định Cắt điện Bảo trì Định kỳ & Thủ tục Thông báo Kế hoạch",
+    "department": "Ban Kỹ thuật & Kinh doanh",
+    "effectiveDate": "01/01/2024",
+    "docType": "Quy định pháp lý",
+    "category": "Bảo trì lưới điện",
+    "summary": "Thời hạn thông báo cắt điện kế hoạch tối thiểu 05 ngày trước thời điểm cắt, giới hạn số lần cắt điện trong năm và thời gian tối đa mỗi đợt.",
+    "content": "Quy định Thông báo Cắt điện Kế hoạch phục vụ Sửa chữa, Bảo trì Lưới điện. Căn cứ Luật Điện lực và Thông tư 22/2020/TT-BCT của Bộ Công Thương. 1. Thời hạn thông báo: Điện lực có trách nhiệm thông báo cho khách hàng biết trước thời điểm cắt điện tối thiểu 05 ngày đối với khách hàng sinh hoạt và 07 ngày đối với khách hàng sản xuất kinh doanh lớn. 2. Hình thức thông báo: Đăng tải trên website CSKH, gửi tin nhắn SMS/Zalo OA đến số điện thoại đăng ký, và thông báo trên phương tiện truyền thanh địa phương. 3. Giới hạn thời gian cắt điện kế hoạch: Không cắt điện liên tục quá 10 giờ trong một ngày (từ 06h00 đến 18h00), không cắt điện vào ban đêm đối với phụ tải sinh hoạt dân cư trừ trường hợp khẩn cấp. Không cắt điện vào các ngày lễ lớn, kỳ thi tuyển sinh quốc gia, hoặc ngày có nhiệt độ dự báo thời tiết trên 36 độ C. 4. Tần suất: Không cắt điện bảo trì quá 02 lần/tháng đối với cùng một lộ đường dây.",
+    "sections": [
+      {
+        "heading": "Khoản 1: Quy định thời hạn thông báo cắt điện kế hoạch",
+        "text": "Đơn vị phân phối điện phải thông báo cho khách hàng ít nhất 5 ngày trước khi ngừng, giảm mức cung cấp điện theo kế hoạch đối với khách hàng sinh hoạt, và ít nhất 7 ngày đối với khách hàng mua điện sản xuất lớn. Thông báo phải nêu rõ lý do, thời gian bắt đầu, thời gian kết thúc và phạm vi mất điện."
+      },
+      {
+        "heading": "Khoản 2: Các trường hợp đặc biệt không được cắt điện kế hoạch",
+        "text": "Tuyệt đối không thực hiện cắt điện theo kế hoạch trong các trường hợp: (a) Khi nhiệt độ ngoài trời từ 36°C trở lên theo dự báo của Trung tâm Khí tượng Thủy văn Quốc gia; (b) Các ngày lễ Tết quốc gia (Tết Nguyên đán, Quốc khánh 2/9, 30/4 - 1/5); (c) Địa bàn diễn ra các kỳ thi tốt nghiệp THPT, thi tuyển sinh đại học; (d) Các sự kiện chính trị quan trọng của Đảng và Nhà nước."
+      },
+      {
+        "heading": "Khoản 3: Giới hạn thời lượng và tần suất cắt điện",
+        "text": "Thời gian ngừng cung cấp điện bảo trì một đợt không được vượt quá 10 giờ/ngày. Đối với cùng một lộ đường dây, số lần cắt điện bảo trì kế hoạch không được vượt quá 2 lần trong 1 tháng và không quá 6 lần trong một năm để đảm bảo chỉ số độ tin cậy cung cấp điện SAIDI, SAIFI."
+      }
+    ]
+  },
+  {
+    "id": "doc-05",
+    "docCode": "QĐ-05/2024/BG-BCT",
+    "title": "Biểu giá Bán lẻ Điện Sinh hoạt Bậc thang & Cách tính Lũy tiến",
+    "department": "Bộ Công Thương & EVN",
+    "effectiveDate": "11/10/2024",
+    "docType": "Quyết định giá",
+    "category": "Giá điện & Hóa đơn",
+    "summary": "Biểu giá điện 6 bậc thang lũy tiến áp dụng toàn quốc (chưa gồm VAT 8%): Bậc 1 (0-50kWh): 1.893đ, Bậc 2 (51-100kWh): 1.956đ, Bậc 3 (101-200kWh): 2.271đ, Bậc 4 (201-300kWh): 2.860đ, Bậc 5 (301-400kWh): 3.197đ, Bậc 6 (từ 401kWh trở lên): 3.302đ.",
+    "content": "Quyết định số 2699/QĐ-BCT về Biểu giá Bán lẻ Điện Sinh hoạt Bậc thang. Mức giá chưa bao gồm thuế giá trị gia tăng (VAT 8%). Bậc 1: Cho kWh từ 0 - 50 kWh: Đơn giá 1.893 đồng/kWh. Bậc 2: Cho kWh từ 51 - 100 kWh: Đơn giá 1.956 đồng/kWh. Bậc 3: Cho kWh từ 101 - 200 kWh: Đơn giá 2.271 đồng/kWh. Bậc 4: Cho kWh từ 201 - 300 kWh: Đơn giá 2.860 đồng/kWh. Bậc 5: Cho kWh từ 301 - 400 kWh: Đơn giá 3.197 đồng/kWh. Bậc 6: Cho kWh từ 401 kWh trở lên: Đơn giá 3.302 đồng/kWh. Phương pháp tính lũy tiến: Tiền điện = (Sản lượng từng bậc x Đơn giá bậc tương ứng) + Thuế VAT (8%). Hộ nghèo, hộ chính sách xã hội có lượng điện sử dụng không quá 50 kWh/tháng được hỗ trợ tiền điện tương đương 30 kWh tính theo giá bán lẻ điện bậc 1 (khoảng 56.790 đồng/hộ/tháng).",
+    "sections": [
+      {
+        "heading": "Bảng chi tiết Biểu giá điện 6 bậc thang sinh hoạt",
+        "text": "Bậc 1 (0 - 50 kWh): 1.893 đồng/kWh (dành cho hộ nghèo và mức tiêu thụ tối thiểu).\nBậc 2 (51 - 100 kWh): 1.956 đồng/kWh.\nBậc 3 (101 - 200 kWh): 2.271 đồng/kWh (mức tiêu thụ trung bình phổ biến).\nBậc 4 (201 - 300 kWh): 2.860 đồng/kWh.\nBậc 5 (301 - 400 kWh): 3.197 đồng/kWh.\nBậc 6 (từ 401 kWh trở lên): 3.302 đồng/kWh (mức sử dụng cao, khuyến khích tiết kiệm)."
+      },
+      {
+        "heading": "Ví dụ minh họa cách tính tiền điện lũy tiến cho 250 kWh",
+        "text": "Hộ gia đình sử dụng 250 kWh trong tháng tính như sau:\n- Bậc 1 (50 kWh x 1.893đ) = 94.650đ\n- Bậc 2 (50 kWh x 1.956đ) = 97.800đ\n- Bậc 3 (100 kWh x 2.271đ) = 227.100đ\n- Bậc 4 (50 kWh x 2.860đ) = 143.000đ\nTổng tiền điện chưa thuế = 562.550 đồng.\nThuế VAT (8%) = 562.550 x 8% = 45.004 đồng.\nTổng thanh toán = 607.554 đồng."
+      },
+      {
+        "heading": "Chính sách hỗ trợ tiền điện cho hộ nghèo và gia đình chính sách",
+        "text": "Hộ nghèo theo chuẩn nghèo quốc gia và hộ chính sách xã hội có mức sử dụng điện không quá 50 kWh/tháng được ngân sách nhà nước hỗ trợ tiền điện tương đương 30 kWh tính theo giá bậc 1. Số tiền hỗ trợ được chi trả trực tiếp hàng quý thông qua UBND xã/phường hoặc trừ vào hóa đơn tiền điện."
+      }
+    ]
+  },
+  {
+    "id": "doc-06",
+    "docCode": "QĐ-06/2023/LĐ-EVN",
+    "title": "Quy trình Lắp đặt Công tơ Mới & Di dời Điện kế Sinh hoạt",
+    "department": "Ban Kinh doanh EVN",
+    "effectiveDate": "01/10/2023",
+    "docType": "Quy trình dịch vụ",
+    "category": "Thủ tục cấp điện",
+    "summary": "Thủ tục và hồ sơ cấp điện mới 1 pha, 3 pha sinh hoạt. Thời gian giải quyết tối đa 03 ngày làm việc, toàn bộ chi phí dây dẫn và công tơ do Điện lực chịu.",
+    "content": "Quy trình Cấp điện Mới và Di dời Công tơ cho Khách hàng Sinh hoạt. 1. Hồ sơ đề nghị cấp điện mới gồm: Giấy đề nghị mua điện (theo mẫu EVN); Bản sao một trong các giấy tờ: Căn cước công dân gắn chip, Giấy chứng nhận quyền sử dụng đất, Hợp đồng mua bán nhà hoặc Hộ khẩu thường trú. 2. Thời gian giải quyết: Tối đa 03 ngày làm việc đối với khu vực đô thị và 05 ngày làm việc đối với khu vực nông thôn kể từ khi nhận đủ hồ sơ hợp lệ. 3. Chi phí: Ngành Điện chịu toàn bộ chi phí mua sắm công tơ, thiết bị đóng cắt, dây dẫn từ lưới điện hạ thế đến công tơ treo tại cột hoặc tường rào (chiều dài tối đa 30 mét). Khách hàng chỉ chịu chi phí dây dẫn và thiết bị điện từ sau công tơ vào trong nhà. 4. Di dời công tơ: Miễn phí nếu di dời do chỉnh trang đô thị hoặc nâng cấp lưới điện của Nhà nước. Nếu di dời theo yêu cầu riêng của khách hàng thì khách hàng thanh toán chi phí vật tư phát sinh.",
+    "sections": [
+      {
+        "heading": "Hồ sơ đăng ký cấp điện mới 1 pha và 3 pha sinh hoạt",
+        "text": "Khách hàng đăng ký trực tuyến 100% qua Cổng Dịch vụ công Quốc gia hoặc App EVN CSKH mà không cần đến quầy giao dịch. Hồ sơ chỉ cần: CCCD gắn chip (xác thực tự động qua VNeID mức 2) và Giấy tờ chứng minh quyền sử dụng địa điểm mua điện (Sổ đỏ, sổ hồng, hợp đồng thuê nhà từ 1 năm trở lên)."
+      },
+      {
+        "heading": "Thời hạn cung cấp dịch vụ và phân định chi phí",
+        "text": "Thời gian khảo sát và lắp đặt hoàn tất: Không quá 3 ngày làm việc tại khu vực thành phố/thị xã; không quá 5 ngày làm việc tại khu vực nông thôn. Ngành điện đầu tư toàn bộ hệ thống từ lưới điện đến công tơ đo đếm (công tơ điện tử, hộp bảo vệ, dây dẫn ngoài). Khách hàng chỉ lo dây sau công tơ."
+      },
+      {
+        "heading": "Thủ tục di dời công tơ điện và nâng công suất điện kế",
+        "text": "Khi có nhu cầu di dời vị trí công tơ (do sửa nhà, xây mới tường rào), khách hàng gửi yêu cầu qua App CSKH. Kỹ thuật viên EVN sẽ khảo sát trong vòng 24 giờ. Nếu di dời trong bán kính 10 mét trên cùng trụ điện hoặc tường nhà, ngành điện hỗ trợ nhân công lắp đặt miễn phí."
+      }
+    ]
+  },
+  {
+    "id": "doc-07",
+    "docCode": "QĐ-07/2024/BTTH-EVN",
+    "title": "Chính sách Hỗ trợ & Bồi thường khi Mất điện Kéo dài",
+    "department": "Ban Pháp chế & Kinh doanh EVN",
+    "effectiveDate": "01/05/2024",
+    "docType": "Chính sách bồi thường",
+    "category": "Quyền lợi khách hàng",
+    "summary": "Quy định mức hỗ trợ và bồi thường thiệt hại cho khách hàng khi sự cố mất điện kéo dài vượt quá thời gian cam kết tiêu chuẩn.",
+    "content": "Chính sách Hỗ trợ và Bồi thường Khách hàng sử dụng điện khi gián đoạn cung cấp điện kéo dài. Căn cứ Hợp đồng Mua bán điện và Quy định tiêu chuẩn dịch vụ điện lực. 1. Điều kiện áp dụng: Khi mất điện do lỗi chủ quan của bên bán điện kéo dài liên tục trên 08 giờ mà không thông báo trước theo quy định, hoặc mất điện quá 24 giờ đối với sự cố thông thường. 2. Mức hỗ trợ đối với khách hàng sinh hoạt: Khấu trừ 10% tiền điện bậc 1 cho tháng xảy ra sự cố đối với các hộ bị mất điện liên tục từ 08 đến 16 giờ. Nếu mất điện liên tục trên 16 giờ đến 24 giờ, hỗ trợ chi phí sinh hoạt tương đương 150.000 đồng/hộ gia đình (trừ trực tiếp vào hóa đơn kỳ kế tiếp). Hỗ trợ cấp điện máy phát di động ưu tiên cho hộ gia đình có người bệnh thở oxy hoặc trẻ sơ sinh khi có yêu cầu khẩn cấp. 3. Bồi thường thiệt hại vật chất: Trường hợp điện áp tăng giảm đột ngột (quá áp, mất pha) do lỗi kỹ thuật của ngành điện làm cháy hỏng thiết bị điện gia dụng (tivi, tủ lạnh, máy giặt), ngành điện sẽ phối hợp đơn vị bảo hiểm giám định và bồi thường 100% chi phí sửa chữa hoặc thay thế tương đương trong vòng 07 ngày làm việc.",
+    "sections": [
+      {
+        "heading": "Điều kiện xét hỗ trợ mất điện kéo dài không báo trước",
+        "text": "Áp dụng khi sự cố gián đoạn cung cấp điện do nguyên nhân chủ quan của bên bán điện kéo dài liên tục trên 8 giờ mà không có thông báo trước tối thiểu 5 ngày theo quy định, hoặc thời gian khắc phục sự cố vượt quá 12 giờ so với thời gian cam kết ban đầu."
+      },
+      {
+        "heading": "Mức hỗ trợ chi phí sinh hoạt cho hộ gia đình",
+        "text": "- Mất điện liên tục từ 8 giờ đến dưới 16 giờ: Giảm 10% tiền điện của Bậc 1 trong hóa đơn tháng đó.\n- Mất điện liên tục từ 16 giờ đến 24 giờ: Hỗ trợ tiền sinh hoạt 150.000 đồng/hộ, trừ trực tiếp vào hóa đơn tiền điện kỳ kế tiếp.\n- Mất điện trên 24 giờ: Hỗ trợ tối đa 300.000 đồng/hộ hoặc bố trí máy phát điện lưu động phục vụ sinh hoạt thiết yếu cho cụm dân cư."
+      },
+      {
+        "heading": "Quy trình giám định và bồi thường thiết bị điện hư hỏng do sự cố lưới",
+        "text": "Nếu sự cố quá áp làm cháy thiết bị của khách hàng, khách hàng thông báo trong vòng 24 giờ. Đoàn công tác gồm Đại diện Điện lực và Đơn vị Bảo hiểm sẽ có mặt trong vòng 48 giờ để lập biên bản kiểm tra hiện trường, xác định nguyên nhân và tiến hành bồi thường chi phí sửa chữa hoặc thay mới trong vòng 7 ngày làm việc."
+      }
+    ]
+  },
+  {
+    "id": "doc-08",
+    "docCode": "HD-08/2024/TKĐ-EVN",
+    "title": "Hướng dẫn Tiết kiệm Điện & Quy trình Kiểm tra Hóa đơn Tăng Bất thường",
+    "department": "Trung tâm Tiết kiệm Năng lượng EVN",
+    "effectiveDate": "01/04/2024",
+    "docType": "Hướng dẫn sử dụng",
+    "category": "Tiết kiệm điện",
+    "summary": "Giải pháp tiết kiệm điện máy lạnh, tủ lạnh trong mùa nắng nóng và quy trình yêu cầu phúc tra chỉ số công tơ khi hóa đơn tăng trên 30%.",
+    "content": "Hướng dẫn Tiết kiệm Điện Hiệu quả và Thủ tục Khiếu nại Hóa đơn Tiền điện Tăng cao Mùa Nắng nóng. 1. Nguyên nhân hóa đơn tăng vọt mùa nắng nóng: Khi nhiệt độ môi trường ngoài trời tăng 1°C, mức tiêu thụ điện của máy lạnh tăng từ 2% đến 3,5%. Máy lạnh cài đặt ở 20°C tiêu tốn điện năng gấp 1,5 đến 2 lần so với cài đặt ở 26°C. 2. Khuyến nghị tiết kiệm điện: Cài đặt nhiệt độ điều hòa từ 26°C đến 28°C kết hợp quạt gió nhẹ; bảo dưỡng vệ sinh lưới lọc máy lạnh định kỳ 3 tháng/lần; rút phích cắm các thiết bị điện tử khi không sử dụng (tránh chế độ Standby tiêu hao 5-10% điện năng). 3. Quy trình yêu cầu kiểm tra phúc tra chỉ số công tơ: Khi hóa đơn tăng trên 30% so với tháng liền kề mà không rõ nguyên nhân, khách hàng gửi yêu cầu phúc tra trên App EVN CSKH hoặc gọi 19001909. Trong vòng 24 giờ, kỹ thuật viên Điện lực sẽ đến cùng khách hàng kiểm tra chỉ số tại cột, kiểm tra dòng rò dây dẫn sau công tơ và kiểm định sai số công tơ miễn phí. Nếu công tơ chạy sai quá giới hạn cho phép (±2%), ngành điện hoàn trả toàn bộ số tiền thu thừa và thay công tơ mới miễn phí.",
+    "sections": [
+      {
+        "heading": "Mẹo sử dụng máy lạnh (điều hòa) tiết kiệm 30% điện năng",
+        "text": "Cài đặt nhiệt độ máy lạnh ở mức từ 26°C đến 28°C. Sử dụng thêm quạt gió để phân bổ luồng khí lạnh đều khắp phòng mà không cần giảm nhiệt độ điều hòa. Thường xuyên vệ sinh tấm lọc bụi 2 tuần/lần và bảo dưỡng dàn nóng, dàn lạnh 6 tháng/lần giúp máy vận hành trơn tru và giảm 15% điện năng tiêu thụ."
+      },
+      {
+        "heading": "Quy trình kiểm tra dòng điện rò rỉ âm tường trong nhà",
+        "text": "Để tự kiểm tra rò điện: Tắt và rút toàn bộ phích cắm tất cả các thiết bị điện trong nhà nhưng vẫn giữ Aptomat tổng bật. Quan sát công tơ điện tử: Nếu đèn LED xung nhấp nháy hoặc số đếm vẫn chạy thì chứng tỏ hệ thống dây điện âm tường trong nhà đã bị rò điện ra tường/đất, gây hao hụt điện năng lớn và nguy cơ điện giật."
+      },
+      {
+        "heading": "Thủ tục yêu cầu phúc tra chỉ số công tơ tăng trên 30%",
+        "text": "Khi nhận hóa đơn tăng bất thường trên 30% so với tháng trước, khách hàng bấm yêu cầu 'Phúc tra chỉ số' trên App EVN CSKH. Đội ngũ kiểm định EVN sẽ mang thiết bị đo chuẩn đến kiểm tra trực tiếp trước sự chứng kiến của khách hàng trong 24 giờ làm việc. Nếu sai sót do nhập liệu hoặc công tơ hỏng, hóa đơn sẽ được phát hành lại ngay trong kỳ."
+      }
+    ]
+  },
+  {
+    "id": "doc-09",
+    "docCode": "QĐ-09/2026/ĐMT-EVN",
+    "title": "Chính sách Khuyến khích & Hướng dẫn Lắp đặt Điện mặt trời Mái nhà Tự sản Tự tiêu 2026",
+    "department": "Ban Năng lượng Tái tạo EVN",
+    "effectiveDate": "01/03/2026",
+    "docType": "Chính sách khuyến khích",
+    "category": "Năng lượng tái tạo",
+    "summary": "Quy định về đăng ký, lắp đặt hệ thống điện mặt trời mái nhà tự sản tự tiêu, thủ tục đấu nối công tơ 2 chiều miễn phí và miễn giấy phép cho hộ dưới 100kW.",
+    "content": "Quyết định số 09/2026/QĐ-ĐMT ban hành ngày 01/03/2026 của Tập đoàn Điện lực Việt Nam về cơ chế khuyến khích phát triển điện mặt trời mái nhà tự sản, tự tiêu. Điều 1: Hộ gia đình lắp đặt công suất dưới 100kW được miễn trừ giấy phép hoạt động điện lực và thủ tục quy hoạch. Điều 2: Điện lực địa phương có trách nhiệm lắp đặt miễn phí công tơ đo đếm điện năng 2 chiều trong vòng 03 ngày làm việc sau khi nhận hồ sơ nghiệm thu.",
+    "sections": [
+      {
+        "heading": "Điều 1: Điều kiện miễn trừ giấy phép và đăng ký lắp đặt điện mặt trời mái nhà",
+        "text": "Hộ gia đình và cơ quan công sở lắp đặt hệ thống điện mặt trời mái nhà công suất dưới 100kW chỉ cần gửi thông báo đến Điện lực quận/huyện trực thuộc, được miễn toàn bộ thủ tục xin cấp giấy phép hoạt động điện lực và quy hoạch điện lực cấp tỉnh."
+      },
+      {
+        "heading": "Điều 2: Lắp đặt công tơ đo đếm 2 chiều miễn phí trong 3 ngày",
+        "text": "Trong thời hạn tối đa 03 ngày làm việc kể từ khi nghiệm thu kỹ thuật an toàn, Công ty Điện lực có trách nhiệm lắp đặt miễn phí công tơ 2 chiều để phục vụ đo đếm sản lượng tiêu thụ và phát ngược lên lưới."
+      }
+    ]
+  },
+  {
+    "id": "doc-10",
+    "docCode": "TT-10/2026/TT-BCT",
+    "title": "Thông tư Quy định Tiêu chuẩn Trạm Sạc Xe điện & Biểu giá Điện Ưu đãi 2026",
+    "department": "Bộ Công Thương & EVN",
+    "effectiveDate": "01/05/2026",
+    "docType": "Thông tư liên tịch",
+    "category": "Trạm sạc xe điện",
+    "summary": "Quy định đấu nối trạm sạc xe điện vào lưới điện hạ thế/trung thế, giá điện ưu đãi giờ thấp điểm 1.450 đ/kWh cho trạm sạc công cộng.",
+    "content": "Thông tư số 10/2026/TT-BCT ngày 01/05/2026 của Bộ Công Thương quy định kỹ thuật và giá điện phục vụ hạ tầng trạm sạc xe điện tại Việt Nam. Điều 1: Trạm sạc nhanh DC công suất từ 60kW trở lên bắt buộc phải đấu nối vào lưới trung thế 22kV có trạm biến áp riêng biệt. Điều 2: Biểu giá điện trạm sạc công cộng áp dụng mức giá ưu đãi giờ thấp điểm là 1.450 đ/kWh từ 22h00 đến 04h00 sáng.",
+    "sections": [
+      {
+        "heading": "Điều 1: Quy chuẩn đấu nối trạm sạc nhanh DC xe điện từ 60kW",
+        "text": "Trạm sạc nhanh DC xe điện có công suất từ 60kW trở lên phải được cấp điện từ đường dây trung thế 22kV qua trạm biến áp chuyên dùng của chủ đầu tư, trang bị thiết bị chống sét lan truyền Type 1+2 và nút ngắt khẩn cấp Emergency Stop."
+      },
+      {
+        "heading": "Điều 2: Biểu giá điện ưu đãi trạm sạc xe điện theo 3 khung giờ",
+        "text": "Giá bán lẻ điện cho trạm sạc xe điện công cộng áp dụng 3 mức giá: Giờ thấp điểm (từ 22h00 đến 04h00) là 1.450 đ/kWh; giờ bình thường là 1.980 đ/kWh; giờ cao điểm (09h30 - 11h30 và 17h00 - 20h00) là 3.420 đ/kWh."
+      },
+      {
+        "heading": "Điều 3: Thời gian giải quyết thỏa thuận đấu nối trạm sạc",
+        "text": "Điện lực khu vực có trách nhiệm hoàn tất khảo sát và ký thỏa thuận đấu nối trạm sạc xe điện trong vòng tối đa 05 ngày làm việc đối với lưới hạ thế và 10 ngày làm việc đối với lưới trung thế."
+      }
+    ]
+  },
+  {
+    "id": "doc-11",
+    "docCode": "QĐ-11/2026/TBA-EVN",
+    "title": "Quy chuẩn Kỹ thuật Đấu nối Trạm biến áp Chuyên dùng & Cấp điện Doanh nghiệp 2026",
+    "department": "Ban Kỹ thuật Lưới điện EVN",
+    "effectiveDate": "15/06/2026",
+    "docType": "Quy chuẩn kỹ thuật",
+    "category": "Cấp điện doanh nghiệp",
+    "summary": "Quy định điều kiện đấu nối trạm biến áp phân phối từ 100kVA đến 2500kVA vào lưới điện trung thế 22kV, thời hạn nghiệm thu đóng điện trong vòng 05 ngày làm việc và yêu cầu hệ số công suất Cos phi >= 0.90.",
+    "content": "Quyết định số 11/2026/QĐ-TBA ngày 15/06/2026 của Tập đoàn Điện lực Việt Nam quy định về thỏa thuận đấu nối và nghiệm thu đóng điện trạm biến áp chuyên dùng của khách hàng. Điều 1: Khách hàng sử dụng điện có công suất đăng ký từ 80kW trở lên hoặc tổng dung lượng máy biến áp từ 100kVA bắt buộc phải xây dựng trạm biến áp riêng biệt đấu nối vào lưới trung thế 22kV. Điều 2: Hệ số công suất (Cos phi) tại điểm đo đếm phải duy trì từ 0.90 trở lên. Trường hợp Cos phi < 0.90, khách hàng phải mua công suất phản kháng theo quy định. Điều 3: Thời gian kiểm tra nghiệm thu kỹ thuật an toàn và ký biên bản đóng điện trạm biến áp tối đa 05 ngày làm việc kể từ khi nhận đủ hồ sơ hoàn công.",
+    "sections": [
+      {
+        "heading": "Điều 1: Tiêu chuẩn công suất và cấp điện áp đấu nối trạm biến áp chuyên dùng",
+        "text": "Doanh nghiệp, cơ sở sản xuất có nhu cầu sử dụng công suất cực đại từ 80kW trở lên hoặc lắp máy biến áp từ 100kVA đến 2500kVA phải đấu nối vào lưới trung thế 22kV hoặc 35kV. Khách hàng chịu trách nhiệm đầu tư đường dây nhánh, máy biến áp và tủ phân phối hạ thế tổng."
+      },
+      {
+        "heading": "Điều 2: Quy định về bù công suất phản kháng và hệ số Cos phi",
+        "text": "Tất cả trạm biến áp chuyên dùng phải lắp đặt tủ tụ bù tự động đảm bảo hệ số công suất Cos φ đạt tối thiểu 0.90 trong mọi chu kỳ phụ tải. Nếu hệ số Cos φ trung bình tháng dưới 0.90, hệ thống tính tiền mua công suất phản kháng theo biểu giá hiện hành của EVN."
+      },
+      {
+        "heading": "Điều 3: Thời hạn khảo sát và nghiệm thu đóng điện trạm biến áp",
+        "text": "Thời hạn khảo sát phương án cấp điện trong vòng 03 ngày làm việc. Thời gian kiểm tra nghiệm thu hiện trường và hoàn tất thủ tục đóng điện vận hành không quá 05 ngày làm việc kể từ ngày tiếp nhận văn bản đề nghị đóng điện cùng biên bản thí nghiệm thiết bị đạt chuẩn."
+      }
+    ]
+  },
+  {
+    "id": "doc-12",
+    "docCode": "QĐ-12/2026/AMI-EVN",
+    "title": "Quy định Lắp đặt Hệ thống Công tơ Thông minh AMI & Đo đếm Dữ liệu Từ xa 2026",
+    "department": "Ban Viễn thông & CNTT EVN",
+    "effectiveDate": "01/08/2026",
+    "docType": "Quy định công nghệ",
+    "category": "Đo đếm thông minh",
+    "summary": "Quy định lộ trình thay thế 100% sang công tơ điện tử thông minh AMI có kết nối RF-Mesh/4G, tự động chốt chỉ số 30 phút/lần và cảnh báo mất điện tức thời qua Last Gasp.",
+    "content": "Quyết định số 12/2026/QĐ-AMI ngày 01/08/2026 về hiện đại hóa hệ thống đo đếm điện năng tự động AMI (Advanced Metering Infrastructure). Điều 1: Toàn bộ công tơ bán lẻ điện sinh hoạt và sản xuất được thay thế miễn phí sang công tơ điện tử thông minh tích hợp công nghệ RF-Mesh và NB-IoT/4G. Điều 2: Tần suất thu thập dữ liệu chỉ số điện tự động truyền về trung tâm dữ liệu chu kỳ 30 phút/lần, cho phép khách hàng theo dõi biểu đồ sản lượng tiêu thụ theo thời gian thực trên App EVN CSKH. Điều 3: Tính năng cảnh báo sự cố Last Gasp tự động phát tín hiệu báo mất điện về hệ thống giám sát OMS trong vòng 05 giây ngay khi mất nguồn, giúp điện lực chủ động điều động xử lý mà khách hàng không cần gọi điện báo sự cố.",
+    "sections": [
+      {
+        "heading": "Điều 1: Tiêu chuẩn công nghệ công tơ điện tử thông minh AMI",
+        "text": "Công tơ thông minh thế hệ mới tích hợp chuẩn truyền thông không dây kép RF-Mesh tần số 433/470MHz và mô-đun 4G LTE/NB-IoT, cho phép tự động gửi dữ liệu chỉ số, điện áp, dòng điện, hệ số công suất và phát hiện hành vi gian lận tác động từ trường ngoại vi."
+      },
+      {
+        "heading": "Điều 2: Thu thập chỉ số 30 phút/lần và giám sát tức thời trên App EVN",
+        "text": "Hệ thống tự động chốt và đồng bộ sản lượng điện tiêu thụ 30 phút/lần về máy chủ EVN. Người dùng có thể theo dõi đồ thị phụ tải hàng giờ, thiết lập ngưỡng cảnh báo tiền điện vượt hạn mức (ví dụ: cảnh báo khi tiêu thụ vượt 30kWh/ngày) trực tiếp trên điện thoại."
+      },
+      {
+        "heading": "Điều 3: Tự động cảnh báo mất điện Last Gasp không cần gọi tổng đài",
+        "text": "Khi xảy ra mất điện, công tơ sử dụng năng lượng siêu tụ điện dự phòng (Supercapacitor) để gửi bản tin khẩn cấp 'Last Gasp' về trung tâm điều độ trong vòng 5 giây. Hệ thống OMS tự động khoanh vùng khu vực mất điện và cử kỹ thuật viên xử lý mà không phụ thuộc vào cuộc gọi phản ánh của khách hàng."
+      }
+    ]
+  }
+]

@@ -1,0 +1,112 @@
+version: '3.8'
+
+services:
+  # =========================================================================
+  # 1. FASTAPI BACKEND SERVICE (Python 3.12 + LangGraph + SSE Streaming)
+  # =========================================================================
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: evn_powerbot_backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=postgresql://evn_user:evn_password@postgres:5432/evn_powerbot_db
+      - REDIS_URL=redis://redis:6379/0
+      - OPENAI_API_KEY=${OPENAI_API_KEY:-}
+      - SEMANTIC_CACHE_ENABLED=true
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - evn_network
+
+  # =========================================================================
+  # 2. REACT 19 FRONTEND SERVICE (Nginx Reverse Proxy)
+  # =========================================================================
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: evn_powerbot_frontend
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    networks:
+      - evn_network
+
+  # =========================================================================
+  # 3. POSTGRESQL + PGVECTOR SERVICE (HNSW Vector Indexing)
+  # =========================================================================
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: evn_powerbot_postgres
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=evn_user
+      - POSTGRES_PASSWORD=evn_password
+      - POSTGRES_DB=evn_powerbot_db
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./langgraph_lab/schema.sql:/docker-entrypoint-initdb.d/01_init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U evn_user -d evn_powerbot_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - evn_network
+
+  # =========================================================================
+  # 4. REDIS SERVICE (Distributed Caching & Rate Limiting)
+  # =========================================================================
+  redis:
+    image: redis:7-alpine
+    container_name: evn_powerbot_redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - evn_network
+
+  # =========================================================================
+  # 5. PGADMIN 4 WEB UI (Trực quan hóa Database & pgvector trên trình duyệt)
+  # =========================================================================
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: evn_powerbot_pgadmin
+    restart: unless-stopped
+    ports:
+      - "5050:80"
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@evn.vn
+      - PGADMIN_DEFAULT_PASSWORD=admin
+    depends_on:
+      - postgres
+    networks:
+      - evn_network
+
+networks:
+  evn_network:
+    driver: bridge
+
+volumes:
+  pgdata:
+    driver: local
+  redisdata:
+    driver: local
