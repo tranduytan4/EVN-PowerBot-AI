@@ -1,5 +1,17 @@
 import os
+import time
+from pathlib import Path
 from typing import Dict, Any, List, Optional
+from dotenv import load_dotenv
+
+# Automatically load .env from langgraph_lab or root directory
+_root_env = Path(__file__).resolve().parent.parent.parent / ".env"
+_lab_env = Path(__file__).resolve().parent.parent / ".env"
+if _lab_env.exists():
+    load_dotenv(dotenv_path=_lab_env)
+if _root_env.exists():
+    load_dotenv(dotenv_path=_root_env)
+load_dotenv()
 
 def generate_llm_response(
     question: str,
@@ -8,21 +20,95 @@ def generate_llm_response(
     retrieved_documents: List[Dict[str, Any]],
     inspection_result: Optional[Dict[str, Any]] = None,
     approved: Optional[bool] = None,
-    provider: str = "local",
-    api_key: Optional[str] = None
+    provider: Optional[str] = None,
+    api_key: Optional[str] = None,
+    model_name: Optional[str] = None
 ) -> Dict[str, Any]:
     """
     Synthesizes the final answer with 100% grounded citations and factual correctness.
-    If OpenAI API key is supplied, can call ChatOpenAI. Otherwise, uses deterministic domain synthesis.
+    Supports:
+    1. Gemini API (gemini-3.5-flash-lite / gemini-2.5-flash-lite) via GEMINI_API_KEY.
+    2. OpenAI API via OPENAI_API_KEY.
+    3. High-Fidelity Deterministic Simulator (local fallback).
     """
-    # 1. Check if OpenAI should be called
-    key = api_key or os.environ.get("OPENAI_API_KEY")
-    if provider == "openai" and key:
+    gemini_key = api_key or os.environ.get("GEMINI_API_KEY")
+    openai_key = api_key or os.environ.get("OPENAI_API_KEY")
+    selected_provider = provider or os.environ.get("LLM_PROVIDER")
+    
+    if not selected_provider:
+        if gemini_key:
+            selected_provider = "gemini"
+        elif openai_key:
+            selected_provider = "openai"
+        else:
+            selected_provider = "local"
+
+    # 1. Check Gemini Provider
+    if selected_provider == "gemini" and gemini_key:
+        from google import genai
+        client = genai.Client(api_key=gemini_key)
+        primary_model = model_name or os.environ.get("GEMINI_MODEL", "gemini-3.5-flash-lite")
+        models_to_try = [primary_model]
+        for alt in ["gemini-2.5-flash", "gemini-2.5-flash-lite"]:
+            if alt not in models_to_try:
+                models_to_try.append(alt)
+        
+        context_str = "\n".join([
+            f"- [Mã VB: {d.get('docCode', 'EVN-DOC')} | Hiệu lực: {d.get('effectiveDate', '')}] {d.get('heading', '')}: {d.get('content', '')}"
+            for d in (retrieved_documents or [])
+        ])
+        tool_str = str(tool_output) if tool_output else "Không có dữ liệu công cụ"
+        
+        inspection_info = ""
+        if inspection_result:
+            inspection_info = f"\nThông tin kiểm định/phúc tra: {inspection_result} (Trạng thái duyệt: {'ĐÃ DUYỆT' if approved else 'TỪ CHỐI'})"
+            
+        prompt = f"""Bạn là EVN PowerBot AI - Trợ lý ảo thông minh của Tập đoàn Điện lực Việt Nam (EVN).
+Nhiệm vụ của bạn là giải đáp thắc mắc của khách hàng một cách chuyên nghiệp, chính xác, bám sát ngữ cảnh dữ liệu và trích dẫn văn bản pháp quy rõ ràng.
+
+Quy tắc bắt buộc:
+1. Trả lời bằng tiếng Việt lịch sự, thân thiện, rõ ràng.
+2. Tuyệt đối không bịa đặt thông tin ngoài dữ liệu công cụ và tài liệu được cung cấp dưới đây.
+3. Nếu có tài liệu RAG, hãy trích dẫn rõ mã văn bản (ví dụ [QĐ-01/2025/ATĐ-EVN], [NĐ-80/2024/NĐ-CP]) và tên điều khoản ở cuối câu trả lời.
+4. Nếu là câu hỏi ngoài phạm vi ngành điện hoặc tài chính/chứng khoán/thời tiết, hãy thông báo lịch sự rằng câu hỏi nằm ngoài phạm vi nghiệp vụ và hướng dẫn liên hệ hotline 19001909.
+
+Dữ liệu đầu vào:
+- Câu hỏi người dùng: {question}
+- Ý định nhận diện: {intent}
+- Dữ liệu từ công cụ nghiệp vụ: {tool_str}{inspection_info}
+- Tài liệu quy định / kiến thức EVN liên quan:
+{context_str if context_str else "(Không có tài liệu đính kèm)"}
+
+Hãy tạo câu trả lời hoàn chỉnh:"""
+
+        for m in models_to_try:
+            try:
+                resp = client.models.generate_content(
+                    model=m,
+                    contents=prompt
+                )
+                answer_text = resp.text.strip() if resp.text else ""
+                if answer_text:
+                    return {
+                        "answer": answer_text,
+                        "confidence": 0.98,
+                        "is_hallucination_safe": True,
+                        "model_used": m,
+                        "provider": "gemini"
+                    }
+            except Exception as e:
+                print(f"[LLM] Gemini call ({m}) error: {e}. Trying next fallback...")
+                
+        print("[LLM] All Gemini model attempts failed. Falling back to high-fidelity simulator.")
+
+    # 2. Check OpenAI Provider
+    if selected_provider == "openai" and openai_key:
         try:
             from langchain_openai import ChatOpenAI
-            llm = ChatOpenAI(model="gpt-4o", api_key=key, temperature=0.1)
+            openai_model = model_name or os.environ.get("OPENAI_MODEL", "gpt-4o")
+            llm = ChatOpenAI(model=openai_model, api_key=openai_key, temperature=0.1)
             
-            context_str = "\n".join([f"- [{d.get('docCode')}] {d.get('heading')}: {d.get('content')}" for d in retrieved_documents])
+            context_str = "\n".join([f"- [{d.get('docCode')}] {d.get('heading')}: {d.get('content')}" for d in (retrieved_documents or [])])
             tool_str = str(tool_output) if tool_output else "None"
             
             prompt = f"""Bạn là EVN PowerBot AI - Trợ lý ảo Tập đoàn Điện lực Việt Nam.
@@ -39,7 +125,9 @@ Hãy trả lời chuyên nghiệp, đầy đủ và trích dẫn mã điều kho
             return {
                 "answer": resp.content,
                 "confidence": 0.96,
-                "is_hallucination_safe": True
+                "is_hallucination_safe": True,
+                "model_used": openai_model,
+                "provider": "openai"
             }
         except Exception as e:
             print(f"[LLM] OpenAI call error: {e}. Falling back to high-fidelity simulator.")

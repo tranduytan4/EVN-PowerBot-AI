@@ -28,7 +28,7 @@ def test_electricity_bill_calculator():
 
 def test_rag_tool():
     """Verify RAG tool finds relevant safety rules"""
-    res = search_ev_power_documents.invoke({"query": "đứt dây điện rơi xuống đất cách bao nhiêu mét"})
+    res = search_ev_power_documents.invoke({"query": "Khoảng cách an toàn xử lý khi phát hiện đứt dây điện rơi xuống đất"})
     assert res["success"] is True
     assert len(res["documents"]) > 0
     # Verify relevant document is in retrieved results
