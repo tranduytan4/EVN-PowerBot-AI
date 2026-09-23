@@ -1,0 +1,117 @@
+{
+  "config": {
+    "name": "baseline_v0",
+    "corpus_scope": "core",
+    "sparse_backend": "legacy",
+    "embedding_backend": "legacy",
+    "reranker_backend": "legacy",
+    "retrieval_mode": "hybrid_rrf_rerank",
+    "top_k": 5,
+    "candidate_pool_size": 15,
+    "cache_enabled": false,
+    "eval_mode": true,
+    "split": "dev",
+    "output_dir": "eval/results",
+    "judge_model": "gemini-2.5-flash-lite",
+    "gen_model": "gemini-2.5-flash"
+  },
+  "timestamp": "2026-09-23T23:21:22.231747",
+  "summary": {
+    "total_queries": 2,
+    "overall": {
+      "recall_1": 1.0,
+      "recall_3": 1.0,
+      "recall_5": 1.0,
+      "recall_10": 1.0,
+      "hit_rate_1": 1.0,
+      "hit_rate_3": 1.0,
+      "hit_rate_5": 1.0,
+      "hit_rate_10": 1.0,
+      "mrr": 1.0,
+      "ndcg_10": 1.8155,
+      "latency_p50": 250.50224999995407,
+      "latency_p90": 264.74628999912966,
+      "latency_p95": 266.5267949990266,
+      "latency_p99": 267.95119899894416,
+      "latency_mean": 250.50224999995407
+    },
+    "by_type": {
+      "Type-1": {
+        "count": 2,
+        "recall_1": 1.0,
+        "recall_3": 1.0,
+        "recall_5": 1.0,
+        "recall_10": 1.0,
+        "hit_rate_1": 1.0,
+        "hit_rate_3": 1.0,
+        "hit_rate_5": 1.0,
+        "hit_rate_10": 1.0,
+        "mrr": 1.0,
+        "ndcg_10": 1.8155,
+        "latency_p50": 250.5
+      }
+    }
+  },
+  "queries": [
+    {
+      "id": "gold-01",
+      "question": "Khoảng cách an toàn phóng điện với đường dây 22kV và 110kV là bao nhiêu mét?",
+      "type": "Type-1",
+      "difficulty": "medium",
+      "should_abstain": false,
+      "gold_docs": [
+        "QĐ-01/2025/ATĐ-EVN"
+      ],
+      "retrieved_docs": [
+        "QĐ-01/2025/ATĐ-EVN",
+        "NĐ-51/2020/NĐ-CP",
+        "QĐ-01/2025/ATĐ-EVN",
+        "NĐ-51/2020/NĐ-CP",
+        "NĐ-51/2020/NĐ-CP"
+      ],
+      "metrics": {
+        "latency_ms": 268.30729999892355,
+        "mrr": 1.0,
+        "ndcg_10": 1.5,
+        "recall_1": 1.0,
+        "hit_rate_1": 1.0,
+        "recall_3": 1.0,
+        "hit_rate_3": 1.0,
+        "recall_5": 1.0,
+        "hit_rate_5": 1.0,
+        "recall_10": 1.0,
+        "hit_rate_10": 1.0
+      }
+    },
+    {
+      "id": "gold-02",
+      "question": "Biểu giá điện ưu đãi trạm sạc xe điện giờ thấp điểm",
+      "type": "Type-1",
+      "difficulty": "medium",
+      "should_abstain": false,
+      "gold_docs": [
+        "TT-10/2026/TT-BCT"
+      ],
+      "retrieved_docs": [
+        "TT-10/2026/TT-BCT",
+        "TT-10/2026/TT-BCT",
+        "TT-10/2026/TT-BCT",
+        "QĐ-05/2024/BG-BCT",
+        "QĐ-19/2024/TOU-BCT"
+      ],
+      "metrics": {
+        "latency_ms": 232.6972000009846,
+        "mrr": 1.0,
+        "ndcg_10": 2.1309297535714578,
+        "recall_1": 1.0,
+        "hit_rate_1": 1.0,
+        "recall_3": 1.0,
+        "hit_rate_3": 1.0,
+        "recall_5": 1.0,
+        "hit_rate_5": 1.0,
+        "recall_10": 1.0,
+        "hit_rate_10": 1.0
+      }
+    }
+  ]
+}
