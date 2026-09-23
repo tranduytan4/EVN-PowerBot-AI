@@ -7,6 +7,16 @@
     "effectiveDate": "01/01/2025",
     "docType": "Quy chuẩn kỹ thuật",
     "category": "An toàn điện",
+    "legalBasis": "Luật Điện lực số 28/2004/QH11 và Nghị định 134/2013/NĐ-CP về xử phạt vi phạm an toàn điện",
+    "targetAudience": "Toàn thể người dân, hộ sinh hoạt và các đơn vị thi công gần công trình điện",
+    "keywords": [
+      "an toàn điện",
+      "khoảng cách phóng điện",
+      "đứt dây điện",
+      "chập cháy",
+      "mưa bão ngập lụt",
+      "19001909"
+    ],
     "summary": "Quy định bắt buộc về khoảng cách an toàn, xử lý khi phát hiện sự cố đứt dây, đổ cột, cháy nổ thiết bị điện ngoài trời và trong nhà.",
     "content": "Quy chuẩn An toàn điện và Xử lý Khẩn cấp trên Lưới điện Quốc gia. Ban hành theo Quyết định số 01/2025/QĐ-ATĐ của Tập đoàn Điện lực. Điều 1: Khoảng cách an toàn phóng điện với đường dây cao thế và trung thế. Đối với đường dây 22kV, khoảng cách an toàn tối thiểu là 2.0 mét. Đối với đường dây 110kV là 4.0 mét, đường dây 220kV là 6.0 mét và 500kV là 8.0 mét. Điều 2: Xử lý khi phát hiện dây điện đứt rơi xuống đất hoặc vướng vào cây cối. Tuyệt đối không được đến gần trong phạm vi bán kính 10 mét tính từ điểm dây chạm đất. Giữ nguyên hiện trường, cảnh báo cho người xung quanh không lại gần. Gọi ngay số điện thoại khẩn cấp 19001909 hoặc 114 để lực lượng điều độ điện lực cắt điện khẩn cấp. Điều 3: Xử lý sự cố chập cháy thiết bị điện gia đình. Cần lập tức ngắt cầu dao tổng (Aptomat/CB). Dùng bình cứu hỏa khí CO2 hoặc bột chữa cháy chuyên dụng cho thiết bị điện. Tuyệt đối không dùng nước dập lửa khi chưa ngắt nguồn điện hoàn toàn. Điều 4: An toàn điện trong mùa mưa bão ngập lụt. Khi nước ngập đến sàn nhà hoặc mép ổ cắm, phải ngắt cầu dao nhánh và cầu dao tổng, không chạm tay ướt vào thiết bị điện.",
     "sections": [
@@ -36,6 +46,16 @@
     "effectiveDate": "15/06/2024",
     "docType": "Quy trình vận hành",
     "category": "Dịch vụ khách hàng",
+    "legalBasis": "Quy chế Cung cấp Dịch vụ Điện lực EVN và Tiêu chuẩn chất lượng dịch vụ khách hàng",
+    "targetAudience": "Tất cả khách hàng sử dụng điện sinh hoạt và sản xuất",
+    "keywords": [
+      "báo mất điện",
+      "19001909",
+      "SCADA",
+      "App EVN CSKH",
+      "sửa chữa điện",
+      "OMS"
+    ],
     "summary": "Quy trình 4 bước tiếp nhận phản ánh mất điện qua Tổng đài 19001909, App CSKH, Zalo OA và phân phối lệnh điều độ tự động.",
     "content": "Quy trình Tiếp nhận và Xử lý Báo Mất điện Khẩn cấp toàn hệ thống EVN. Bước 1: Tiếp nhận thông tin. Khách hàng thông báo mất điện qua hotline 19001909, App EVN CSKH hoặc Cổng Dịch vụ công Quốc gia. Cung cấp Mã khách hàng (PE...), địa chỉ và mô tả hiện tượng (mất điện toàn khu vực hay mất điện riêng gia đình, có tiếng nổ hay mùi khét không). Bước 2: Phân loại sự cố. Hệ thống tự động kiểm tra trạng thái trạm biến áp phân phối qua hệ thống SCADA. Nếu mất điện diện rộng do sự cố đường dây, hệ thống sẽ kích hoạt tin nhắn SMS thông báo dự kiến giờ có điện lại. Nếu mất điện đơn lẻ từng hộ, phiếu công tác sẽ tự động chuyển đến Đội Quản lý vận hành khu vực. Bước 3: Xuất quân xử lý. Đội sửa chữa lưu động có mặt tại hiện trường trong vòng tối đa 30 phút ở đô thị và 60 phút ở nông thôn. Bước 4: Nghiệm thu và phản hồi. Sau khi đóng điện, hệ thống gửi tin nhắn xác nhận hoàn thành đến số điện thoại khách hàng.",
     "sections": [
@@ -65,6 +85,16 @@
     "effectiveDate": "01/03/2024",
     "docType": "Quy định dịch vụ",
     "category": "Điều độ vận hành",
+    "legalBasis": "Thông tư 39/2015/TT-BCT và Thông tư 30/2019/TT-BCT quy định Hệ thống điện phân phối",
+    "targetAudience": "Đơn vị điều độ, Đội quản lý vận hành lưới điện và Khách hàng sử dụng điện",
+    "keywords": [
+      "thời gian khôi phục",
+      "cấp độ sự cố",
+      "máy biến áp",
+      "bão lũ",
+      "chỉ số SAIDI",
+      "SAIFI"
+    ],
     "summary": "Thời gian tối đa để khôi phục điện phân theo 4 cấp độ: Sự cố nhẹ tại trạm, sự cố đứt dây hạ thế, sự cố máy biến áp, và thiên tai bão lũ.",
     "content": "Quy định chuẩn dịch vụ cấp điện EVN về Thời gian Khôi phục Điện. Cấp độ 1 (Sự cố nhánh hạ thế đơn lẻ, nhảy chì, cháy công tơ): Thời gian khôi phục tối đa không quá 02 giờ kể từ khi tiếp nhận thông tin. Cấp độ 2 (Sự cố nhảy Aptomat tổng trạm biến áp phân phối, đứt dây dẫn hạ thế lộ chính): Thời gian khôi phục tối đa không quá 04 giờ. Cấp độ 3 (Sự cố hỏng máy biến áp phân phối, gãy cột điện trung thế cần thay thế thiết bị): Thời gian khôi phục tối đa không quá 08 giờ trong điều kiện thời tiết bình thường. Cấp độ 4 (Sự cố thiên tai bất khả kháng như bão lớn, ngập lụt, sét đánh diện rộng): Ưu tiên khôi phục phụ tải quan trọng (bệnh viện, nhà máy nước sạch, cơ quan hành chính) trong 06 giờ; khu vực dân cư khôi phục từng phần trong vòng 24 đến 48 giờ sau khi nước rút hoặc bão tan.",
     "sections": [
@@ -94,6 +124,15 @@
     "effectiveDate": "01/01/2024",
     "docType": "Quy định pháp lý",
     "category": "Bảo trì lưới điện",
+    "legalBasis": "Thông tư số 22/2020/TT-BCT quy định điều kiện, trình tự ngừng, giảm mức cung cấp điện",
+    "targetAudience": "Toàn bộ khách hàng sinh hoạt, thương mại và các nhà máy sản xuất",
+    "keywords": [
+      "cắt điện kế hoạch",
+      "bảo trì lưới điện",
+      "thông báo trước 5 ngày",
+      "nhiệt độ trên 36 độ C",
+      "SAIDI"
+    ],
     "summary": "Thời hạn thông báo cắt điện kế hoạch tối thiểu 05 ngày trước thời điểm cắt, giới hạn số lần cắt điện trong năm và thời gian tối đa mỗi đợt.",
     "content": "Quy định Thông báo Cắt điện Kế hoạch phục vụ Sửa chữa, Bảo trì Lưới điện. Căn cứ Luật Điện lực và Thông tư 22/2020/TT-BCT của Bộ Công Thương. 1. Thời hạn thông báo: Điện lực có trách nhiệm thông báo cho khách hàng biết trước thời điểm cắt điện tối thiểu 05 ngày đối với khách hàng sinh hoạt và 07 ngày đối với khách hàng sản xuất kinh doanh lớn. 2. Hình thức thông báo: Đăng tải trên website CSKH, gửi tin nhắn SMS/Zalo OA đến số điện thoại đăng ký, và thông báo trên phương tiện truyền thanh địa phương. 3. Giới hạn thời gian cắt điện kế hoạch: Không cắt điện liên tục quá 10 giờ trong một ngày (từ 06h00 đến 18h00), không cắt điện vào ban đêm đối với phụ tải sinh hoạt dân cư trừ trường hợp khẩn cấp. Không cắt điện vào các ngày lễ lớn, kỳ thi tuyển sinh quốc gia, hoặc ngày có nhiệt độ dự báo thời tiết trên 36 độ C. 4. Tần suất: Không cắt điện bảo trì quá 02 lần/tháng đối với cùng một lộ đường dây.",
     "sections": [
@@ -119,6 +158,16 @@
     "effectiveDate": "11/10/2024",
     "docType": "Quyết định giá",
     "category": "Giá điện & Hóa đơn",
+    "legalBasis": "Quyết định số 2699/QĐ-BCT ngày 11/10/2024 của Bộ Công Thương về biểu giá bán lẻ điện",
+    "targetAudience": "Hộ gia đình sử dụng điện sinh hoạt toàn quốc",
+    "keywords": [
+      "giá điện sinh hoạt",
+      "biểu giá 6 bậc",
+      "tính tiền điện lũy tiến",
+      "VAT 8%",
+      "hộ nghèo",
+      "Quyết định 2699"
+    ],
     "summary": "Biểu giá điện 6 bậc thang lũy tiến áp dụng toàn quốc (chưa gồm VAT 8%): Bậc 1 (0-50kWh): 1.893đ, Bậc 2 (51-100kWh): 1.956đ, Bậc 3 (101-200kWh): 2.271đ, Bậc 4 (201-300kWh): 2.860đ, Bậc 5 (301-400kWh): 3.197đ, Bậc 6 (từ 401kWh trở lên): 3.302đ.",
     "content": "Quyết định số 2699/QĐ-BCT về Biểu giá Bán lẻ Điện Sinh hoạt Bậc thang. Mức giá chưa bao gồm thuế giá trị gia tăng (VAT 8%). Bậc 1: Cho kWh từ 0 - 50 kWh: Đơn giá 1.893 đồng/kWh. Bậc 2: Cho kWh từ 51 - 100 kWh: Đơn giá 1.956 đồng/kWh. Bậc 3: Cho kWh từ 101 - 200 kWh: Đơn giá 2.271 đồng/kWh. Bậc 4: Cho kWh từ 201 - 300 kWh: Đơn giá 2.860 đồng/kWh. Bậc 5: Cho kWh từ 301 - 400 kWh: Đơn giá 3.197 đồng/kWh. Bậc 6: Cho kWh từ 401 kWh trở lên: Đơn giá 3.302 đồng/kWh. Phương pháp tính lũy tiến: Tiền điện = (Sản lượng từng bậc x Đơn giá bậc tương ứng) + Thuế VAT (8%). Hộ nghèo, hộ chính sách xã hội có lượng điện sử dụng không quá 50 kWh/tháng được hỗ trợ tiền điện tương đương 30 kWh tính theo giá bán lẻ điện bậc 1 (khoảng 56.790 đồng/hộ/tháng).",
     "sections": [
@@ -144,6 +193,16 @@
     "effectiveDate": "01/10/2023",
     "docType": "Quy trình dịch vụ",
     "category": "Thủ tục cấp điện",
+    "legalBasis": "Quy chế cung ứng dịch vụ điện lực và Nghị định 104/2022/NĐ-CP về bỏ sổ hộ khẩu giấy",
+    "targetAudience": "Cá nhân, hộ gia đình có nhu cầu cấp điện mới hoặc di chuyển vị trí công tơ",
+    "keywords": [
+      "cấp điện mới",
+      "lắp công tơ",
+      "di dời điện kế",
+      "VNeID",
+      "thủ tục 3 ngày",
+      "miễn phí dây dẫn"
+    ],
     "summary": "Thủ tục và hồ sơ cấp điện mới 1 pha, 3 pha sinh hoạt. Thời gian giải quyết tối đa 03 ngày làm việc, toàn bộ chi phí dây dẫn và công tơ do Điện lực chịu.",
     "content": "Quy trình Cấp điện Mới và Di dời Công tơ cho Khách hàng Sinh hoạt. 1. Hồ sơ đề nghị cấp điện mới gồm: Giấy đề nghị mua điện (theo mẫu EVN); Bản sao một trong các giấy tờ: Căn cước công dân gắn chip, Giấy chứng nhận quyền sử dụng đất, Hợp đồng mua bán nhà hoặc Hộ khẩu thường trú. 2. Thời gian giải quyết: Tối đa 03 ngày làm việc đối với khu vực đô thị và 05 ngày làm việc đối với khu vực nông thôn kể từ khi nhận đủ hồ sơ hợp lệ. 3. Chi phí: Ngành Điện chịu toàn bộ chi phí mua sắm công tơ, thiết bị đóng cắt, dây dẫn từ lưới điện hạ thế đến công tơ treo tại cột hoặc tường rào (chiều dài tối đa 30 mét). Khách hàng chỉ chịu chi phí dây dẫn và thiết bị điện từ sau công tơ vào trong nhà. 4. Di dời công tơ: Miễn phí nếu di dời do chỉnh trang đô thị hoặc nâng cấp lưới điện của Nhà nước. Nếu di dời theo yêu cầu riêng của khách hàng thì khách hàng thanh toán chi phí vật tư phát sinh.",
     "sections": [
@@ -169,6 +228,15 @@
     "effectiveDate": "01/05/2024",
     "docType": "Chính sách bồi thường",
     "category": "Quyền lợi khách hàng",
+    "legalBasis": "Luật Bảo vệ Quyền lợi Người tiêu dùng và Điều lệ Cung cấp Điện năng EVN",
+    "targetAudience": "Hộ gia đình, cơ sở sản xuất bị thiệt hại do mất điện kéo dài hoặc sự cố quá áp",
+    "keywords": [
+      "bồi thường mất điện",
+      "hỗ trợ sinh hoạt",
+      "cháy thiết bị do quá áp",
+      "giám định bảo hiểm",
+      "hoàn tiền điện"
+    ],
     "summary": "Quy định mức hỗ trợ và bồi thường thiệt hại cho khách hàng khi sự cố mất điện kéo dài vượt quá thời gian cam kết tiêu chuẩn.",
     "content": "Chính sách Hỗ trợ và Bồi thường Khách hàng sử dụng điện khi gián đoạn cung cấp điện kéo dài. Căn cứ Hợp đồng Mua bán điện và Quy định tiêu chuẩn dịch vụ điện lực. 1. Điều kiện áp dụng: Khi mất điện do lỗi chủ quan của bên bán điện kéo dài liên tục trên 08 giờ mà không thông báo trước theo quy định, hoặc mất điện quá 24 giờ đối với sự cố thông thường. 2. Mức hỗ trợ đối với khách hàng sinh hoạt: Khấu trừ 10% tiền điện bậc 1 cho tháng xảy ra sự cố đối với các hộ bị mất điện liên tục từ 08 đến 16 giờ. Nếu mất điện liên tục trên 16 giờ đến 24 giờ, hỗ trợ chi phí sinh hoạt tương đương 150.000 đồng/hộ gia đình (trừ trực tiếp vào hóa đơn kỳ kế tiếp). Hỗ trợ cấp điện máy phát di động ưu tiên cho hộ gia đình có người bệnh thở oxy hoặc trẻ sơ sinh khi có yêu cầu khẩn cấp. 3. Bồi thường thiệt hại vật chất: Trường hợp điện áp tăng giảm đột ngột (quá áp, mất pha) do lỗi kỹ thuật của ngành điện làm cháy hỏng thiết bị điện gia dụng (tivi, tủ lạnh, máy giặt), ngành điện sẽ phối hợp đơn vị bảo hiểm giám định và bồi thường 100% chi phí sửa chữa hoặc thay thế tương đương trong vòng 07 ngày làm việc.",
     "sections": [
@@ -194,6 +262,16 @@
     "effectiveDate": "01/04/2024",
     "docType": "Hướng dẫn sử dụng",
     "category": "Tiết kiệm điện",
+    "legalBasis": "Chỉ thị số 20/CT-TTg của Thủ tướng Chính phủ về tăng cường tiết kiệm điện giai đoạn 2023-2025",
+    "targetAudience": "Người dân sử dụng thiết bị làm mát mùa hè và khách hàng có hóa đơn tăng trên 30%",
+    "keywords": [
+      "tiết kiệm điện",
+      "máy lạnh",
+      "rò điện âm tường",
+      "phúc tra chỉ số",
+      "hóa đơn tăng cao",
+      "kiểm định công tơ"
+    ],
     "summary": "Giải pháp tiết kiệm điện máy lạnh, tủ lạnh trong mùa nắng nóng và quy trình yêu cầu phúc tra chỉ số công tơ khi hóa đơn tăng trên 30%.",
     "content": "Hướng dẫn Tiết kiệm Điện Hiệu quả và Thủ tục Khiếu nại Hóa đơn Tiền điện Tăng cao Mùa Nắng nóng. 1. Nguyên nhân hóa đơn tăng vọt mùa nắng nóng: Khi nhiệt độ môi trường ngoài trời tăng 1°C, mức tiêu thụ điện của máy lạnh tăng từ 2% đến 3,5%. Máy lạnh cài đặt ở 20°C tiêu tốn điện năng gấp 1,5 đến 2 lần so với cài đặt ở 26°C. 2. Khuyến nghị tiết kiệm điện: Cài đặt nhiệt độ điều hòa từ 26°C đến 28°C kết hợp quạt gió nhẹ; bảo dưỡng vệ sinh lưới lọc máy lạnh định kỳ 3 tháng/lần; rút phích cắm các thiết bị điện tử khi không sử dụng (tránh chế độ Standby tiêu hao 5-10% điện năng). 3. Quy trình yêu cầu kiểm tra phúc tra chỉ số công tơ: Khi hóa đơn tăng trên 30% so với tháng liền kề mà không rõ nguyên nhân, khách hàng gửi yêu cầu phúc tra trên App EVN CSKH hoặc gọi 19001909. Trong vòng 24 giờ, kỹ thuật viên Điện lực sẽ đến cùng khách hàng kiểm tra chỉ số tại cột, kiểm tra dòng rò dây dẫn sau công tơ và kiểm định sai số công tơ miễn phí. Nếu công tơ chạy sai quá giới hạn cho phép (±2%), ngành điện hoàn trả toàn bộ số tiền thu thừa và thay công tơ mới miễn phí.",
     "sections": [
@@ -219,6 +297,16 @@
     "effectiveDate": "01/03/2026",
     "docType": "Chính sách khuyến khích",
     "category": "Năng lượng tái tạo",
+    "legalBasis": "Nghị định 135/2024/NĐ-CP về cơ chế khuyến khích phát triển điện mặt trời mái nhà tự sản tự tiêu",
+    "targetAudience": "Hộ gia đình, công sở, nhà xưởng lắp đặt điện mặt trời áp mái",
+    "keywords": [
+      "điện mặt trời mái nhà",
+      "tự sản tự tiêu",
+      "công tơ 2 chiều",
+      "dưới 100kW",
+      "miễn giấy phép",
+      "Zero Export"
+    ],
     "summary": "Quy định về đăng ký, lắp đặt hệ thống điện mặt trời mái nhà tự sản tự tiêu, thủ tục đấu nối công tơ 2 chiều miễn phí và miễn giấy phép cho hộ dưới 100kW.",
     "content": "Quyết định số 09/2026/QĐ-ĐMT ban hành ngày 01/03/2026 của Tập đoàn Điện lực Việt Nam về cơ chế khuyến khích phát triển điện mặt trời mái nhà tự sản, tự tiêu. Điều 1: Hộ gia đình lắp đặt công suất dưới 100kW được miễn trừ giấy phép hoạt động điện lực và thủ tục quy hoạch. Điều 2: Điện lực địa phương có trách nhiệm lắp đặt miễn phí công tơ đo đếm điện năng 2 chiều trong vòng 03 ngày làm việc sau khi nhận hồ sơ nghiệm thu.",
     "sections": [
@@ -240,6 +328,15 @@
     "effectiveDate": "01/05/2026",
     "docType": "Thông tư liên tịch",
     "category": "Trạm sạc xe điện",
+    "legalBasis": "Quy hoạch phát triển hạ tầng giao thông xanh và Thông tư liên tịch Bộ GTVT - Bộ Công Thương",
+    "targetAudience": "Doanh nghiệp đầu tư trạm sạc xe điện công cộng và chủ xe ô tô điện",
+    "keywords": [
+      "trạm sạc xe điện",
+      "sạc nhanh DC 60kW",
+      "giá điện ưu đãi",
+      "thấp điểm 1450d",
+      "đấu nối trung thế 22kV"
+    ],
     "summary": "Quy định đấu nối trạm sạc xe điện vào lưới điện hạ thế/trung thế, giá điện ưu đãi giờ thấp điểm 1.450 đ/kWh cho trạm sạc công cộng.",
     "content": "Thông tư số 10/2026/TT-BCT ngày 01/05/2026 của Bộ Công Thương quy định kỹ thuật và giá điện phục vụ hạ tầng trạm sạc xe điện tại Việt Nam. Điều 1: Trạm sạc nhanh DC công suất từ 60kW trở lên bắt buộc phải đấu nối vào lưới trung thế 22kV có trạm biến áp riêng biệt. Điều 2: Biểu giá điện trạm sạc công cộng áp dụng mức giá ưu đãi giờ thấp điểm là 1.450 đ/kWh từ 22h00 đến 04h00 sáng.",
     "sections": [
@@ -265,6 +362,15 @@
     "effectiveDate": "15/06/2026",
     "docType": "Quy chuẩn kỹ thuật",
     "category": "Cấp điện doanh nghiệp",
+    "legalBasis": "Thông tư số 39/2015/TT-BCT và Thông tư số 30/2019/TT-BCT về Quy chuẩn kỹ thuật điện lực",
+    "targetAudience": "Doanh nghiệp sản xuất, khu công nghiệp, trạm biến áp từ 100kVA đến 2500kVA",
+    "keywords": [
+      "trạm biến áp chuyên dùng",
+      "hệ số Cos phi",
+      "tụ bù công suất",
+      "đấu nối 22kV",
+      "nghiệm thu 5 ngày"
+    ],
     "summary": "Quy định điều kiện đấu nối trạm biến áp phân phối từ 100kVA đến 2500kVA vào lưới điện trung thế 22kV, thời hạn nghiệm thu đóng điện trong vòng 05 ngày làm việc và yêu cầu hệ số công suất Cos phi >= 0.90.",
     "content": "Quyết định số 11/2026/QĐ-TBA ngày 15/06/2026 của Tập đoàn Điện lực Việt Nam quy định về thỏa thuận đấu nối và nghiệm thu đóng điện trạm biến áp chuyên dùng của khách hàng. Điều 1: Khách hàng sử dụng điện có công suất đăng ký từ 80kW trở lên hoặc tổng dung lượng máy biến áp từ 100kVA bắt buộc phải xây dựng trạm biến áp riêng biệt đấu nối vào lưới trung thế 22kV. Điều 2: Hệ số công suất (Cos phi) tại điểm đo đếm phải duy trì từ 0.90 trở lên. Trường hợp Cos phi < 0.90, khách hàng phải mua công suất phản kháng theo quy định. Điều 3: Thời gian kiểm tra nghiệm thu kỹ thuật an toàn và ký biên bản đóng điện trạm biến áp tối đa 05 ngày làm việc kể từ khi nhận đủ hồ sơ hoàn công.",
     "sections": [
@@ -290,6 +396,17 @@
     "effectiveDate": "01/08/2026",
     "docType": "Quy định công nghệ",
     "category": "Đo đếm thông minh",
+    "legalBasis": "Chiến lược Chuyển đổi số Quốc gia và Đề án Phát triển Lưới điện Thông minh Smart Grid Việt Nam",
+    "targetAudience": "Toàn bộ khách hàng sử dụng điện sinh hoạt và doanh nghiệp trên toàn quốc",
+    "keywords": [
+      "công tơ thông minh",
+      "AMI",
+      "RF-Mesh",
+      "4G LTE",
+      "Last Gasp",
+      "chốt chỉ số 30 phút",
+      "đo xa"
+    ],
     "summary": "Quy định lộ trình thay thế 100% sang công tơ điện tử thông minh AMI có kết nối RF-Mesh/4G, tự động chốt chỉ số 30 phút/lần và cảnh báo mất điện tức thời qua Last Gasp.",
     "content": "Quyết định số 12/2026/QĐ-AMI ngày 01/08/2026 về hiện đại hóa hệ thống đo đếm điện năng tự động AMI (Advanced Metering Infrastructure). Điều 1: Toàn bộ công tơ bán lẻ điện sinh hoạt và sản xuất được thay thế miễn phí sang công tơ điện tử thông minh tích hợp công nghệ RF-Mesh và NB-IoT/4G. Điều 2: Tần suất thu thập dữ liệu chỉ số điện tự động truyền về trung tâm dữ liệu chu kỳ 30 phút/lần, cho phép khách hàng theo dõi biểu đồ sản lượng tiêu thụ theo thời gian thực trên App EVN CSKH. Điều 3: Tính năng cảnh báo sự cố Last Gasp tự động phát tín hiệu báo mất điện về hệ thống giám sát OMS trong vòng 05 giây ngay khi mất nguồn, giúp điện lực chủ động điều động xử lý mà khách hàng không cần gọi điện báo sự cố.",
     "sections": [
@@ -304,6 +421,297 @@
       {
         "heading": "Điều 3: Tự động cảnh báo mất điện Last Gasp không cần gọi tổng đài",
         "text": "Khi xảy ra mất điện, công tơ sử dụng năng lượng siêu tụ điện dự phòng (Supercapacitor) để gửi bản tin khẩn cấp 'Last Gasp' về trung tâm điều độ trong vòng 5 giây. Hệ thống OMS tự động khoanh vùng khu vực mất điện và cử kỹ thuật viên xử lý mà không phụ thuộc vào cuộc gọi phản ánh của khách hàng."
+      }
+    ]
+  },
+  {
+    "id": "doc-13",
+    "docCode": "NĐ-80/2024/NĐ-CP",
+    "title": "Cơ chế Mua Bán Điện Trực tiếp (DPPA) giữa Đơn vị Phát điện Năng lượng Tái tạo và Khách hàng Sử dụng Điện Lớn",
+    "department": "Chính phủ & Bộ Công Thương (Cục Điều tiết Điện lực ERAV)",
+    "effectiveDate": "03/07/2024",
+    "docType": "Nghị định Chính phủ",
+    "category": "Cơ chế DPPA & Thị trường điện",
+    "legalBasis": "Luật Điện lực số 28/2004/QH11 và Nghị định số 80/2024/NĐ-CP ngày 03/07/2024",
+    "targetAudience": "Khách hàng sản xuất lớn (tiêu thụ >= 200.000 kWh/tháng từ cấp 22kV) và Đơn vị phát điện tái tạo (gió, mặt trời) từ 10MW",
+    "keywords": [
+      "DPPA",
+      "mua bán điện trực tiếp",
+      "năng lượng tái tạo",
+      "Nghị định 80/2024",
+      "thị trường điện giao ngay",
+      "hợp đồng sai khác CFD",
+      "Private Wire"
+    ],
+    "summary": "Quy định chi tiết về 02 hình thức mua bán điện trực tiếp (DPPA): qua Đường dây kết nối riêng và qua Lưới điện quốc gia (thị trường điện giao ngay kết hợp Hợp đồng kỳ hạn FwD/CFD), đối tượng áp dụng và chi phí dịch vụ truyền tải.",
+    "content": "Nghị định số 80/2024/NĐ-CP ngày 03/07/2024 của Chính phủ quy định về Cơ chế Mua Bán Điện Trực tiếp (Direct Power Purchase Agreement - DPPA) giữa Đơn vị phát điện năng lượng tái tạo và Khách hàng sử dụng điện lớn. Điều 1: Hình thức 1 - Mua bán điện trực tiếp qua Đường dây kết nối riêng (Private Line): Đơn vị phát điện tái tạo và Khách hàng lớn ký Hợp đồng mua bán điện trực tiếp và tự thỏa thuận về giá điện, sản lượng, phương thức giao nhận mà không qua lưới điện quốc gia. Dự án nguồn điện phải phù hợp quy hoạch và tuân thủ quy chuẩn an toàn xây dựng, PCCC. Điều 2: Hình thức 2 - Mua bán điện trực tiếp qua Lưới điện Quốc gia: Đơn vị phát điện tái tạo (điện mặt trời, điện gió công suất từ 10MW trở lên) tham gia thị trường bán buôn điện cạnh tranh và bán toàn bộ sản lượng lên thị trường giao ngay qua Tổng công ty Điện lực/EVN. Khách hàng lớn (sử dụng điện phục vụ sản xuất từ cấp điện áp 22kV trở lên với sản lượng bình quân từ 200.000 kWh/tháng trở lên) ký Hợp đồng mua bán điện với Tổng công ty Điện lực theo giá thị trường giao ngay cộng các chi phí dịch vụ hệ thống (truyền tải, phân phối, điều độ, dịch vụ phụ trợ) và ký Hợp đồng kỳ hạn (Contract for Differences - CFD) với đơn vị phát điện để bù trừ chênh lệch giá cam kết. Điều 3: Hồ sơ và quy trình tham gia: Đăng ký với Cục Điều tiết Điện lực và Trung tâm Điều độ Hệ thống điện Quốc gia (NSMO) để thỏa thuận kỹ thuật đấu nối, đo đếm và thanh toán thị trường.",
+    "sections": [
+      {
+        "heading": "Điều 1: Mua bán điện trực tiếp qua Đường dây kết nối riêng (Private Wire DPPA)",
+        "text": "Đơn vị phát điện năng lượng tái tạo (mặt trời, gió, sinh khối, thủy điện nhỏ) và Khách hàng sử dụng điện lớn được tự thỏa thuận điều kiện hợp đồng, giá mua bán điện và phương thức thanh toán. Hệ thống đường dây kết nối riêng do hai bên tự đầu tư xây dựng, phải tuân thủ quy chuẩn kỹ thuật điện lực, an toàn PCCC và bảo vệ môi trường, không bị ràng buộc bởi biểu giá bán lẻ điện của EVN."
+      },
+      {
+        "heading": "Điều 2: Mua bán điện trực tiếp qua Lưới điện Quốc gia (Grid-connected DPPA & CFD)",
+        "text": "Áp dụng cho nhà máy điện gió, mặt trời công suất từ 10MW đấu nối lưới điện quốc gia. Đơn vị phát điện bán toàn bộ sản lượng vào thị trường điện giao ngay theo giá thị trường (SMP). Khách hàng lớn mua điện từ EVN theo giá thị trường giao ngay cộng phí dịch vụ hệ thống (phí truyền tải, phân phối, điều độ hệ thống điện và thị trường điện). Đồng thời, Khách hàng và Chủ đầu tư nguồn điện ký Hợp đồng kỳ hạn dạng sai khác (CFD) với giá thực hiện thỏa thuận (Strike Price) để phòng ngừa rủi ro biến động giá."
+      },
+      {
+        "heading": "Điều 3: Điều kiện khách hàng và tiêu chuẩn sản lượng tiêu thụ",
+        "text": "Khách hàng lớn đủ điều kiện tham gia DPPA là các tổ chức, doanh nghiệp mua điện phục vụ mục đích sản xuất từ cấp điện áp 22kV trở lên, có sản lượng tiêu thụ điện bình quân trong 12 tháng gần nhất đạt từ 200.000 kWh/tháng trở lên. Khách hàng mới đầu tư cần có văn bản cam kết sản lượng dự kiến từ 200.000 kWh/tháng."
+      }
+    ]
+  },
+  {
+    "id": "doc-14",
+    "docCode": "TT-23/2023/TT-BCT",
+    "title": "Quy định Quản lý và Thực hiện Chương trình Điều chỉnh Phụ tải Điện (Demand Response - DR)",
+    "department": "Bộ Công Thương & Ban Kinh doanh EVN",
+    "effectiveDate": "01/12/2023",
+    "docType": "Thông tư Bộ ngành",
+    "category": "Điều chỉnh phụ tải (DR)",
+    "legalBasis": "Luật Điện lực và Quyết định 279/QĐ-TTg của Thủ tướng Chính phủ về Chương trình quốc gia Quản lý nhu cầu điện (DSM)",
+    "targetAudience": "Doanh nghiệp sản xuất công nghiệp có sản lượng tiêu thụ từ 1 triệu kWh/năm hoặc công suất cực đại Pmax >= 300kW",
+    "keywords": [
+      "Demand Response",
+      "DR",
+      "điều chỉnh phụ tải",
+      "tiết giảm công suất đỉnh",
+      "Peak Shaving",
+      "Thông tư 23/2023",
+      "quản lý nhu cầu điện"
+    ],
+    "summary": "Quy định nguyên tắc, quy trình triển khai chương trình Điều chỉnh phụ tải điện (DR) phi thương mại và thương mại nhằm san phẳng biểu đồ phụ tải, giảm quá tải hệ thống điện trong giờ cao điểm mùa nắng nóng.",
+    "content": "Thông tư số 23/2023/TT-BCT quy định thực hiện Chương trình Điều chỉnh phụ tải điện (Demand Response - DR). Điều 1: Mục đích và nguyên tắc: DR là giải pháp khuyến khích khách hàng chủ động điều chỉnh giảm công suất sử dụng điện trong các khung giờ cao điểm theo yêu cầu của đơn vị phân phối điện nhằm đảm bảo an ninh năng lượng quốc gia. Điều 2: Đối tượng và tiêu chuẩn tham gia: Doanh nghiệp sản xuất công nghiệp có sản lượng điện tiêu thụ hàng năm từ 1.000.000 kWh trở lên hoặc có công suất đăng ký cực đại Pmax từ 300 kW trở lên. Khách hàng ký thỏa thuận tham gia DR tự nguyện với Tổng công ty Điện lực. Điều 3: Quy trình phát lệnh và thực hiện DR: Công ty Điện lực gửi thông báo mời tham gia sự kiện DR trước ít nhất 02 giờ đối với sự kiện khẩn cấp và trước 24 giờ đối với sự kiện có kế hoạch. Doanh nghiệp điều chỉnh dịch chuyển phụ tải, giảm công suất theo cam kết. Điều 4: Quyền lợi của khách hàng DR: Doanh nghiệp tham gia DR được ưu tiên cung cấp điện ổn định, không bị tiết giảm điện khi hệ thống thiếu nguồn, được hỗ trợ miễn phí dịch vụ tư vấn kiểm toán năng lượng và nâng cao uy tín thương hiệu phát triển bền vững.",
+    "sections": [
+      {
+        "heading": "Điều 1: Tiêu chuẩn và điều kiện doanh nghiệp tham gia chương trình DR",
+        "text": "Doanh nghiệp thuộc nhóm khách hàng sản xuất công nghiệp có sản lượng điện tiêu thụ từ 1.000.000 kWh/năm trở lên hoặc công suất cực đại Pmax từ 300 kW trở lên, được trang bị công tơ điện tử đo xa AMI có khả năng đo đếm và truyền dữ liệu chu kỳ 30 phút/lần. Doanh nghiệp ký kết Thỏa thuận tham gia chương trình DR tự nguyện (phi thương mại) hoặc DR thương mại với Công ty Điện lực trực thuộc."
+      },
+      {
+        "heading": "Điều 2: Trình tự phát lệnh và các mốc thời gian thông báo sự kiện DR",
+        "text": "Khi hệ thống điện dự báo công suất đỉnh (Pmax) vượt giới hạn an toàn, Trung tâm Điều độ phát lệnh yêu cầu DR. Công ty Điện lực gửi thông báo đến người phụ trách năng lượng của doanh nghiệp qua SMS, Email và App EVN trước ít nhất 24 giờ (đối với sự kiện theo kế hoạch) hoặc trước ít nhất 02 giờ (đối với sự kiện khẩn cấp). Sự kiện DR kéo dài từ 01 đến tối đa 04 giờ trong khung giờ cao điểm trưa (11h30 - 15h00) hoặc cao điểm tối (18h00 - 22h00)."
+      },
+      {
+        "heading": "Điều 3: Chính sách ưu tiên cung cấp điện và hỗ trợ doanh nghiệp DR",
+        "text": "Khách hàng thực hiện tốt cam kết DR được xếp vào danh sách ưu tiên cấp điện hàng đầu, cam kết không bị sa thải phụ tải hoặc cắt điện luân phiên khi hệ thống điện quốc gia bị sự cố thiếu nguồn. Đồng thời, EVN hỗ trợ miễn phí đào tạo Quản lý năng lượng, tư vấn cải tiến dây chuyền hiệu suất cao và cấp giấy chứng nhận Doanh nghiệp đồng hành cùng an ninh năng lượng quốc gia."
+      }
+    ]
+  },
+  {
+    "id": "doc-15",
+    "docCode": "TT-25/2020/TT-BCT",
+    "title": "Quy định Lập Kế hoạch, Báo cáo và Kiểm toán Năng lượng Bắt buộc cho Cơ sở Sử dụng Năng lượng Trọng điểm",
+    "department": "Bộ Công Thương - Vụ Tiết kiệm Năng lượng & Phát triển Bền vững",
+    "effectiveDate": "01/01/2021",
+    "docType": "Thông tư Bộ ngành",
+    "category": "Kiểm toán & Quản lý Năng lượng",
+    "legalBasis": "Luật Sử dụng Năng lượng Tiết kiệm và Hiệu quả số 50/2010/QH12 và Nghị định 21/2011/NĐ-CP",
+    "targetAudience": "Cơ sở sản xuất công nghiệp tiêu thụ từ 1.000 TOE (~6.000.000 kWh/năm) và Tòa nhà, cơ sở thương mại tiêu thụ từ 500 TOE (~3.000.000 kWh/năm)",
+    "keywords": [
+      "kiểm toán năng lượng",
+      "cơ sở năng lượng trọng điểm",
+      "TOE",
+      "tiết kiệm năng lượng",
+      "Quản lý năng lượng",
+      "Luật số 50/2010/QH12",
+      "Thông tư 25/2020"
+    ],
+    "summary": "Quy định tiêu chuẩn xác định cơ sở sử dụng năng lượng trọng điểm, chu kỳ kiểm toán năng lượng bắt buộc 03 năm/lần, trách nhiệm bổ nhiệm Người quản lý năng lượng và chế tài xử phạt theo Nghị định 134/2013/NĐ-CP.",
+    "content": "Thông tư số 25/2020/TT-BCT ngày 29/09/2020 của Bộ Công Thương quy định việc lập kế hoạch, báo cáo thực hiện kế hoạch sử dụng năng lượng tiết kiệm và hiệu quả; thực hiện kiểm toán năng lượng. Điều 1: Tiêu chí xác định Cơ sở sử dụng năng lượng trọng điểm: (a) Cơ sở sản xuất công nghiệp, nông nghiệp, đơn vị vận tải có tổng mức tiêu thụ năng lượng trong một năm quy đổi từ 1.000 tấn dầu tương đương (1.000 TOE, xấp xỉ 6 triệu kWh điện) trở lên; (b) Các công trình xây dựng trụ sở cơ quan, tòa nhà văn phòng, trung tâm thương mại, khách sạn có tổng mức tiêu thụ năng lượng trong một năm quy đổi từ 500 TOE (xấp xỉ 3 triệu kWh điện) trở lên. Điều 2: Nghĩa vụ kiểm toán năng lượng bắt buộc: Các cơ sở trọng điểm bắt buộc phải thực hiện kiểm toán năng lượng định kỳ 03 năm một lần do tổ chức kiểm toán độc lập có đủ điều kiện pháp lý thực hiện. Báo cáo kiểm toán phải gửi về Sở Công Thương địa phương trong vòng 30 ngày kể từ ngày hoàn thành. Điều 3: Người quản lý năng lượng: Bắt buộc phải bổ nhiệm cán bộ quản lý năng lượng đã được Bộ Công Thương cấp chứng chỉ hoàn thành khóa đào tạo Quản lý năng lượng. Điều 4: Chế tài xử lý: Cơ sở không thực hiện kiểm toán năng lượng đúng hạn bị xử phạt vi phạm hành chính từ 50.000.000 đồng đến 60.000.000 đồng theo quy định tại Nghị định 134/2013/NĐ-CP và Nghị định 17/2022/NĐ-CP.",
+    "sections": [
+      {
+        "heading": "Điều 1: Tiêu chí xác định cơ sở sử dụng năng lượng trọng điểm",
+        "text": "Cơ sở sử dụng năng lượng trọng điểm bao gồm: Cơ sở sản xuất công nghiệp, nông nghiệp có mức tiêu thụ năng lượng hàng năm từ 1.000 TOE (tương đương 6.000.000 kWh điện hoặc 1.428 tấn than) trở lên; Tòa nhà thương mại, dịch vụ, khách sạn có mức tiêu thụ năng lượng từ 500 TOE (tương đương 3.000.000 kWh điện) trở lên. Danh sách cơ sở trọng điểm do Thủ tướng Chính phủ ban hành quyết định định kỳ hàng năm."
+      },
+      {
+        "heading": "Điều 2: Quy trình và thời hạn kiểm toán năng lượng định kỳ 3 năm/lần",
+        "text": "Trong thời hạn 3 năm/lần, cơ sở năng lượng trọng điểm phải thuê đơn vị tư vấn kiểm toán năng lượng độc lập đủ năng lực để khảo sát, đo đếm và lập Báo cáo kiểm toán năng lượng toàn diện (bao gồm đánh giá hiệu suất lò hơi, máy nén khí, động cơ điện, hệ thống chiếu sáng và giải pháp thu hồi nhiệt thừa). Báo cáo kiểm toán phải nộp cho Sở Công Thương trước ngày 30/4 của năm liền kề chu kỳ kiểm toán."
+      },
+      {
+        "heading": "Điều 3: Yêu cầu chứng chỉ Người quản lý năng lượng và chế tài xử phạt",
+        "text": "Cơ sở trọng điểm phải thành lập Ban Quản lý năng lượng và ra quyết định bổ nhiệm Người quản lý năng lượng có văn bằng chuyên ngành kỹ thuật và Chứng chỉ Quản lý năng lượng do Bộ Công Thương cấp. Hành vi không kiểm toán năng lượng hoặc không bổ nhiệm người quản lý năng lượng bị phạt tiền từ 50 đến 60 triệu đồng và buộc thực hiện kiểm toán trong vòng 6 tháng."
+      }
+    ]
+  },
+  {
+    "id": "doc-16",
+    "docCode": "NĐ-51/2020/NĐ-CP",
+    "title": "Quy định Chi tiết về Hành lang Bảo vệ An toàn Lưới điện Cao áp (110kV, 220kV, 500kV) và Xử lý Vi phạm",
+    "department": "Chính phủ & Cục Kỹ thuật An toàn Môi trường Công nghiệp (Bộ Công Thương)",
+    "effectiveDate": "21/04/2020",
+    "docType": "Nghị định Chính phủ",
+    "category": "Hành lang an toàn lưới điện",
+    "legalBasis": "Luật Điện lực năm 2004, Luật sửa đổi năm 2012 và Nghị định số 14/2014/NĐ-CP, Nghị định số 51/2020/NĐ-CP",
+    "targetAudience": "Mọi tổ chức, hộ gia đình, cá nhân sinh sống, canh tác hoặc có công trình xây dựng gần đường dây và trạm biến áp cao áp",
+    "keywords": [
+      "hành lang an toàn",
+      "lưới điện cao áp",
+      "110kV",
+      "220kV",
+      "500kV",
+      "Nghị định 51/2020",
+      "khoảng cách an toàn phóng điện"
+    ],
+    "summary": "Quy định chiều rộng hành lang an toàn đường dây 110kV (4m), 220kV (6m), 500kV (7-10m); điều kiện nhà ở trong hành lang và các hành vi bị nghiêm cấm (trồng cây quá cao, thả diều, câu cá).",
+    "content": "Nghị định số 51/2020/NĐ-CP sửa đổi, bổ sung một số điều của Nghị định số 14/2014/NĐ-CP quy định chi tiết thi hành Luật Điện lực về an toàn điện. Điều 1: Chiều rộng hành lang bảo vệ an toàn đường dây dẫn điện trên không: Tính từ dây ngoài cùng ra mỗi phía khi dây ở trạng thái tĩnh. Cấp điện áp 110kV: dây trần là 4,0 mét, dây bọc là 2,0 mét. Cấp điện áp 220kV: dây trần là 6,0 mét. Cấp điện áp 500kV: dây trần là 7,0 mét (dây phân pha) hoặc 10,0 mét. Điều 2: Điều kiện nhà ở, công trình được phép tồn tại trong hành lang bảo vệ an toàn đường dây đến 220kV: Mái và tường bao phải làm bằng vật liệu không cháy; không có bộ phận nào của nhà ở nhô vào khoảng cách an toàn phóng điện; kết cấu kim loại của nhà phải được nối đất chống sét lan truyền và cảm ứng tĩnh điện theo đúng tiêu chuẩn; khoảng cách từ điểm cao nhất của nhà đến dây dẫn thấp nhất khi võng cực đại: 110kV tối thiểu 3,0m; 220kV tối thiểu 4,0m; Cấm tuyệt đối nhà ở trong hành lang đường dây 500kV. Điều 3: An toàn cây cối: Cây trồng ngoài hành lang nhưng có nguy cơ đổ vào đường dây phải được chặt tỉa đảm bảo khoảng cách an toàn khi cây ngã về phía đường dây là 0,7m đối với 110kV, 1,0m đối với 220kV, 2,0m đối với 500kV. Nghiêm cấm thả diều, vật bay, câu cá hoặc sử dụng phương tiện cơ giới vi phạm khoảng cách an toàn dưới đường dây cao thế.",
+    "sections": [
+      {
+        "heading": "Điều 1: Kích thước hành lang an toàn đường dây điện trên không 110kV, 220kV, 500kV",
+        "text": "Khoảng cách bảo vệ an toàn tính từ mép dây dẫn ngoài cùng ra mỗi bên: Đối với điện áp 110kV: 4.0m (dây trần), 2.0m (dây bọc); Đối với điện áp 220kV: 6.0m (dây trần); Đối với điện áp 500kV: 7.0m đối với cột có dây phân pha và 10.0m đối với dây đơn. Chiều cao hành lang an toàn tính từ đáy móng cột đến điểm cao nhất của công trình cộng thêm khoảng cách an toàn thẳng đứng."
+      },
+      {
+        "heading": "Điều 2: Tiêu chuẩn kỹ thuật nhà ở và công trình tồn tại trong hành lang 110kV và 220kV",
+        "text": "Nhà ở và công trình xây dựng trong hành lang lưới điện 110kV và 220kV phải đáp ứng các điều kiện: (1) Mái và tường bao bằng vật liệu chống cháy hoàn toàn; (2) Toàn bộ khung mái tôn, kết cấu kim loại phải đấu nối vào hệ thống tiếp địa an toàn chống cảm ứng điện từ; (3) Khoảng cách tĩnh thẳng đứng từ mái nhà đến dây dẫn điện thấp nhất không được nhỏ hơn 3,0 mét đối với 110kV và 4,0 mét đối với 220kV. Nghiêm cấm xây dựng nhà ở bên dưới hành lang 500kV."
+      },
+      {
+        "heading": "Điều 3: Quản lý cây cối và các hành vi nguy hiểm bị nghiêm cấm",
+        "text": "Nghiêm cấm các hành vi: Trồng cây phát triển cao hơn khoảng cách an toàn dưới đường dây; thả diều, bóng bay kim loại trong phạm vi 500m; quăng ném vật dụng vào dây điện; câu cá dưới gầm đường dây cao thế; đốt rẫy làm khói bốc lên gây phóng điện ion hóa không khí. Khi phát hiện vi phạm, đơn vị quản lý vận hành lập biên bản và phối hợp chính quyền địa phương xử phạt theo Nghị định 134/2013/NĐ-CP."
+      }
+    ]
+  },
+  {
+    "id": "doc-17",
+    "docCode": "TT-42/2022/TT-BCT",
+    "title": "Quy định Kiểm định Độc lập Hệ thống Đo đếm Điện năng và Trình tự Giải quyết Tranh chấp Sai số",
+    "department": "Bộ Công Thương & Tổng cục Tiêu chuẩn Đo lường Chất lượng",
+    "effectiveDate": "15/02/2023",
+    "docType": "Thông tư liên tịch",
+    "category": "Đo đếm & Khiếu nại",
+    "legalBasis": "Luật Đo lường số 04/2011/QH13, Luật Điện lực và Thông tư số 42/2022/TT-BCT",
+    "targetAudience": "Mọi khách hàng mua điện sinh hoạt, kinh doanh, sản xuất khi có nghi ngờ công tơ đo đếm bị sai số",
+    "keywords": [
+      "kiểm định độc lập",
+      "công tơ điện",
+      "sai số đo đếm",
+      "Quatest",
+      "khiếu nại tiền điện",
+      "thoái hoàn tiền điện",
+      "Thông tư 42/2022"
+    ],
+    "summary": "Quy trình niêm phong đưa công tơ đi kiểm định độc lập tại tổ chức kiểm định thứ 3 (Quatest, Viện Đo lường), phân định chi phí kiểm định và công thức hoàn trả/truy thu tiền điện khi sai số vượt mức +-2%.",
+    "content": "Thông tư số 42/2022/TT-BCT quy định về kiểm định đo đếm điện năng và giải quyết tranh chấp kết quả đo đếm điện năng giữa bên mua điện và bên bán điện. Điều 1: Quyền yêu cầu kiểm định độc lập: Khi khách hàng không đồng ý với kết quả kiểm tra tại chỗ của bên bán điện, khách hàng có quyền yêu cầu gửi công tơ đo đếm đến Tổ chức kiểm định độc lập (như Trung tâm Kỹ thuật Tiêu chuẩn Đo lường Chất lượng 1, 2, 3 - Quatest hoặc Viện Đo lường Việt Nam). Điều 2: Trình tự niêm phong và gửi mẫu: Hai bên cùng chứng kiến lập biên bản tháo gỡ công tơ, bỏ vào hộp bảo vệ và dán tem niêm phong có chữ ký của đại diện bên mua, bên bán và chính quyền địa phương hoặc Hội Bảo vệ Người tiêu dùng. Lắp đặt công tơ thay thế tạm thời để khách hàng không bị mất điện. Điều 3: Phân định chi phí kiểm định: Nếu kết quả kiểm định cho thấy công tơ đạt chuẩn (sai số trong giới hạn cho phép ±2% đối với công tơ cấp chính xác 2.0 hoặc ±1% đối với cấp chính xác 1.0), bên mua điện phải chi trả toàn bộ chi phí kiểm định và vận chuyển. Nếu công tơ chạy nhanh hơn quy chuẩn cho phép, bên bán điện (Công ty Điện lực) chịu toàn bộ chi phí kiểm định. Điều 4: Tính toán hoàn trả tiền điện: Bên bán điện phải thoái hoàn toàn bộ số tiền điện thu thừa kể từ thời điểm công tơ bắt đầu chạy sai (hoặc tối đa không quá 12 tháng nếu không xác định được thời điểm chính xác) cộng tiền lãi suất ngân hàng theo quy định.",
+    "sections": [
+      {
+        "heading": "Điều 1: Trình tự niêm phong công tơ và chuyển tổ chức kiểm định độc lập",
+        "text": "Khi có văn bản yêu cầu kiểm định độc lập từ khách hàng, trong vòng 03 ngày làm việc, Điện lực cùng khách hàng tiến hành niêm phong công tơ bằng tem niêm phong niêm chì trước sự chứng kiến của 2 bên. Công tơ được gửi đến Tổ chức kiểm định độc lập có chỉ định của Bộ Khoa học và Công nghệ (Quatest 1, 2, 3 hoặc Viện Đo lường Việt Nam). Trong thời gian kiểm định, Điện lực lắp đặt công tơ mẫu mới để duy trì cấp điện liên tục."
+      },
+      {
+        "heading": "Điều 2: Quy tắc phân định trách nhiệm chi phí kiểm định",
+        "text": "Căn cứ Biên bản chứng nhận kiểm định của tổ chức kiểm định: (1) Nếu công tơ đạt cấp chính xác theo tiêu chuẩn kỹ thuật (sai số nằm trong ngưỡng ±2%): Khách hàng thanh toán phí kiểm định theo hóa đơn thực tế của đơn vị kiểm định; (2) Nếu công tơ chạy nhanh quá ngưỡng cho phép (sai số > +2%): Điện lực chịu 100% chi phí kiểm định và bồi hoàn tiền điện; (3) Nếu công tơ chạy chậm quá ngưỡng cho phép (sai số < -2%): Điện lực chịu chi phí kiểm định và tiến hành truy thu theo quy định."
+      },
+      {
+        "heading": "Điều 3: Phương pháp tính toán số tiền điện hoàn trả cho khách hàng",
+        "text": "Số tiền điện thoái hoàn được tính theo công thức: Tiền hoàn trả = Sản lượng điện tính thừa x Đơn giá điện tại thời điểm tương ứng. Sản lượng điện tính thừa = Sản lượng đo đếm thực tế x (Sai số kiểm định - Sai số cho phép). Thời gian tính thoái hoàn là từ ngày công tơ bắt đầu chạy sai theo dữ liệu đo xa AMI ghi nhận, hoặc tính lùi tối đa không quá 12 tháng nếu không xác định được thời điểm bắt đầu sai lệch."
+      }
+    ]
+  },
+  {
+    "id": "doc-18",
+    "docCode": "HD-18/2025/IREC-EVN",
+    "title": "Hướng dẫn Cấp phát, Quản lý Chứng chỉ Thuộc tính Năng lượng Tái tạo (I-REC / REC) và Báo cáo Phát thải Khí Nhà kính Scope 2",
+    "department": "Ban Chiến lược & Phát triển Bền vững EVN",
+    "effectiveDate": "01/01/2025",
+    "docType": "Hướng dẫn kỹ thuật",
+    "category": "Năng lượng xanh & Tín chỉ Carbon",
+    "legalBasis": "Cam kết Net Zero COP26 của Việt Nam, Tiêu chuẩn I-REC Standard quốc tế và Tiêu chuẩn GHG Protocol Scope 2 Guidance",
+    "targetAudience": "Doanh nghiệp sản xuất xuất khẩu sang EU, Mỹ, Doanh nghiệp FDI tham gia chứng chỉ xanh RE100 và Báo cáo ESG",
+    "keywords": [
+      "I-REC",
+      "REC",
+      "chứng chỉ năng lượng tái tạo",
+      "Scope 2",
+      "khí nhà kính",
+      "CBAM",
+      "ESG",
+      "Net Zero",
+      "Grid Emission Factor"
+    ],
+    "summary": "Quy trình đăng ký, phát hành và hủy chứng chỉ năng lượng tái tạo quốc tế I-REC (1 I-REC = 1 MWh điện sạch), hệ số phát thải lưới điện Việt Nam (Grid Emission Factor) phục vụ báo cáo kiểm kê phát thải Scope 2 và thuế carbon CBAM Châu Âu.",
+    "content": "Hướng dẫn Quản lý và Cấp phát Chứng chỉ Thuộc tính Năng lượng Tái tạo (International Renewable Energy Certificate - I-REC) của EVN. Điều 1: Khái niệm và giá trị pháp lý: I-REC là chứng chỉ năng lượng tái tạo quốc tế chứng nhận 01 Megawatt-giờ (1 MWh = 1.000 kWh) điện được sản xuất từ nguồn năng lượng tái tạo đủ điều kiện (thủy điện, điện mặt trời, điện gió, điện sinh khối). I-REC được công nhận toàn cầu theo chuẩn GHG Protocol và chương trình RE100. Điều 2: Hệ số phát thải lưới điện Việt Nam (Grid Emission Factor - GEF): Ban hành định kỳ hàng năm bởi Cục Biến đổi khí hậu và EVN. Năm 2025, hệ số phát thải biên lưới điện quốc gia công bố là 0.7221 tCO2e/MWh (tấn CO2 tương đương trên mỗi MWh). Doanh nghiệp sử dụng điện lưới khi sở hữu chứng chỉ I-REC được quyền khấu trừ lượng phát thải khí nhà kính gián tiếp (Scope 2) về mức 0 tCO2e/MWh. Điều 3: Quy trình phát hành và bù trừ cho doanh nghiệp xuất khẩu: Doanh nghiệp gửi yêu cầu mua I-REC từ các nhà máy điện mặt trời/gió trực thuộc EVN. Sau khi khớp lệnh trên sàn I-REC Registry, hệ thống thực hiện thủ tục Redemption (Hủy chứng chỉ) kèm tên người thụ hưởng duy nhất nhằm đảm bảo chống trùng lặp (No Double Counting). Doanh nghiệp sử dụng giấy chứng nhận Redemption để xuất trình cơ quan hải quan EU nhằm giảm mức thuế cơ chế điều chỉnh biên giới carbon (CBAM).",
+    "sections": [
+      {
+        "heading": "Điều 1: Tiêu chuẩn cấp chứng chỉ I-REC và nguyên tắc chống trùng lặp (No Double Counting)",
+        "text": "Mỗi chứng chỉ I-REC đại diện độc quyền cho các thuộc tính môi trường của 1 MWh điện phát ra từ nhà máy năng lượng tái tạo đã đăng ký với Tổ chức I-REC Standard. Mỗi chứng chỉ sở hữu mã định danh duy nhất (Serial Number). Khi doanh nghiệp mua để bù trừ phát thải, chứng chỉ sẽ được chuyển sang trạng thái Hủy (Redeemed) mang tên pháp nhân của doanh nghiệp, vĩnh viễn không thể chuyển nhượng hoặc bán lại."
+      },
+      {
+        "heading": "Điều 2: Tính toán giảm phát thải Scope 2 theo GHG Protocol và hệ số phát thải lưới",
+        "text": "Lượng phát thải Scope 2 (tCO2e) = [Tổng sản lượng điện tiêu thụ (MWh) - Sản lượng điện có chứng chỉ I-REC (MWh)] x Hệ số phát thải lưới điện quốc gia (0.7221 tCO2e/MWh). Doanh nghiệp sở hữu 100% I-REC tương ứng sản lượng tiêu thụ sẽ đạt chỉ số phát thải ròng Scope 2 = 0, đáp ứng trọn vẹn yêu cầu kiểm toán ESG của các đối tác toàn cầu như Apple, Samsung, Nike."
+      },
+      {
+        "heading": "Điều 3: Ứng dụng I-REC vượt rào cản thuế Carbon CBAM của Liên minh Châu Âu (EU)",
+        "text": "Theo Cơ chế Điều chỉnh Biên giới Carbon (CBAM) áp dụng cho hàng hóa xuất khẩu sang EU (nhôm, thép, xi măng, phân bón, điện), các doanh nghiệp xuất khẩu Việt Nam nộp báo cáo phát thải kèm chứng chỉ I-REC hợp lệ được khấu trừ phần thuế carbon tương ứng tại cửa khẩu EU, tiết kiệm hàng triệu USD chi phí thuế nhập khẩu."
+      }
+    ]
+  },
+  {
+    "id": "doc-19",
+    "docCode": "QĐ-19/2024/TOU-BCT",
+    "title": "Biểu giá Bán lẻ Điện theo Giờ Bình thường, Cao điểm và Thấp điểm (TOU) cho Khách hàng Sản xuất, Kinh doanh",
+    "department": "Bộ Công Thương & Cục Điều tiết Điện lực (ERAV)",
+    "effectiveDate": "11/10/2024",
+    "docType": "Quyết định giá",
+    "category": "Giá điện & Hóa đơn",
+    "legalBasis": "Quyết định số 2699/QĐ-BCT ngày 11/10/2024 của Bộ Công Thương quy định về giá bán lẻ điện",
+    "targetAudience": "Doanh nghiệp sản xuất công nghiệp, cơ sở kinh doanh thương mại và trạm biến áp chuyên dùng",
+    "keywords": [
+      "biểu giá TOU",
+      "3 giá",
+      "giờ cao điểm",
+      "giờ thấp điểm",
+      "giờ bình thường",
+      "giá điện sản xuất",
+      "tiết kiệm chi phí"
+    ],
+    "summary": "Khung thời gian và bảng giá điện 3 mức theo cấp điện áp (110kV, 22kV-35kV, dưới 6kV); giải pháp kỹ thuật dịch chuyển dây chuyền và vận hành pin lưu trữ BESS vào giờ thấp điểm giúp tiết kiệm 40% chi phí điện.",
+    "content": "Quyết định số 2699/QĐ-BCT quy định về Biểu giá Bán lẻ Điện cho nhóm khách hàng Sản xuất và Kinh doanh theo cơ chế 3 giá (Time of Use - TOU). Điều 1: Khung giờ áp dụng biểu giá TOU: (a) Giờ Bình thường: Từ Thứ Hai đến Thứ Bảy: 04h00 - 09h30, 11h30 - 17h00, 20h00 - 22h00; Chủ nhật: 04h00 - 22h00. (b) Giờ Cao điểm: Từ Thứ Hai đến Thứ Bảy: 09h30 - 11h30, 17h00 - 20h00 (Chủ nhật không có giờ cao điểm). (c) Giờ Thấp điểm: Tất cả các ngày trong tuần: từ 22h00 đêm đến 04h00 sáng hôm sau. Điều 2: Biểu giá điện sản xuất (chưa VAT 8%): Cấp điện áp 110kV trở lên: Giờ bình thường 1.700 đ/kWh, Giờ cao điểm 2.964 đ/kWh, Giờ thấp điểm 1.096 đ/kWh; Cấp điện áp từ 22kV đến dưới 110kV: Giờ bình thường 1.733 đ/kWh, Giờ cao điểm 3.064 đ/kWh, Giờ thấp điểm 1.155 đ/kWh; Cấp điện áp dưới 6kV: Giờ bình thường 1.875 đ/kWh, Giờ cao điểm 3.313 đ/kWh, Giờ thấp điểm 1.258 đ/kWh. Điều 3: Khuyến nghị tối ưu hóa chi phí sản xuất: Chênh lệch đơn giá giữa giờ Cao điểm và giờ Thấp điểm lên tới gần 3 lần (3.064 đ so với 1.155 đ). Doanh nghiệp tăng cường ca làm việc ban đêm hoặc nạp điện vào pin lưu trữ BESS trong giờ thấp điểm (1.155 đ) để phát điện xả tải vào giờ cao điểm giúp tiết kiệm hàng trăm triệu đồng tiền điện mỗi tháng.",
+    "sections": [
+      {
+        "heading": "Điều 1: Khung giờ áp dụng Biểu giá điện TOU (Bình thường, Cao điểm, Thấp điểm)",
+        "text": "Biểu giá áp dụng cho khách hàng có công tơ 3 giá: (1) Giờ thấp điểm: từ 22h00 đến 04h00 sáng tất cả các ngày trong tuần (giá rẻ nhất); (2) Giờ cao điểm: từ 09h30 đến 11h30 sáng và từ 17h00 đến 20h00 tối (Thứ 2 đến Thứ 7, Chủ nhật không tính cao điểm); (3) Giờ bình thường: các khung giờ còn lại trong ngày."
+      },
+      {
+        "heading": "Điều 2: Bảng đơn giá điện sản xuất chi tiết theo cấp điện áp",
+        "text": "Bảng giá bán lẻ điện sản xuất (chưa gồm 8% VAT):\n- Cấp 110kV+: Thấp điểm: 1.096 đ/kWh | Bình thường: 1.700 đ/kWh | Cao điểm: 2.964 đ/kWh\n- Cấp 22kV - 110kV: Thấp điểm: 1.155 đ/kWh | Bình thường: 1.733 đ/kWh | Cao điểm: 3.064 đ/kWh\n- Cấp dưới 6kV: Thấp điểm: 1.258 đ/kWh | Bình thường: 1.875 đ/kWh | Cao điểm: 3.313 đ/kWh"
+      },
+      {
+        "heading": "Điều 3: Giải pháp dịch chuyển phụ tải và tích hợp pin lưu trữ BESS",
+        "text": "Do giá điện giờ cao điểm cao gấp 2.7 lần giờ thấp điểm, doanh nghiệp nên bố trí các công đoạn tiêu thụ năng lượng lớn (lò nung, nghiền liệu, bơm nước công nghiệp) vận hành vào ban đêm sau 22h00. Kết hợp lắp đặt trạm lưu trữ BESS sạc pin ở giờ thấp điểm (1.155 đ) và xả pin cấp cho nhà máy vào khung 17h00 - 20h00 để cắt giảm triệt để chi phí điện năng đỉnh."
+      }
+    ]
+  },
+  {
+    "id": "doc-20",
+    "docCode": "QCVN-20/2025/BCT-BESS",
+    "title": "Quy chuẩn Kỹ thuật Quốc gia về Yêu cầu Kỹ thuật và Vận hành Hệ thống Pin Lưu trữ Năng lượng (BESS) Đấu nối Lưới điện Phân phối",
+    "department": "Bộ Công Thương & Cục Điện lực và Năng lượng Tái tạo",
+    "effectiveDate": "01/03/2025",
+    "docType": "Quy chuẩn kỹ thuật",
+    "category": "Hệ thống BESS & Công nghệ mới",
+    "legalBasis": "Quy chuẩn QCVN:2025/BCT và Tiêu chuẩn quốc tế IEC 62933, NFPA 855",
+    "targetAudience": "Doanh nghiệp lắp đặt hệ thống pin lưu trữ năng lượng (BESS), Chủ đầu tư trang trại điện mặt trời/gió",
+    "keywords": [
+      "BESS",
+      "pin lưu trữ năng lượng",
+      "Lithium-ion",
+      "NFPA 855",
+      "đấu nối lưới điện",
+      "cắt đỉnh phụ tải",
+      "điều tần",
+      "QCVN"
+    ],
+    "summary": "Quy chuẩn kỹ thuật an toàn PCCC Lithium-ion (tiêu chuẩn UL 9540A, NFPA 855), chức năng điều hòa tần số, chống sụt áp và điều kiện thỏa thuận kỹ thuật đấu nối BESS vào lưới phân phối 22kV.",
+    "content": "Quy chuẩn Kỹ thuật Quốc gia QCVN:2025/BCT về Yêu cầu Thiết kế, Lắp đặt và Vận hành An toàn Hệ thống Pin Lưu trữ Năng lượng (Battery Energy Storage System - BESS). Điều 1: Tiêu chuẩn an toàn phòng cháy chữa cháy và chống quá nhiệt nhiệt độ (Thermal Runaway): Hệ thống pin BESS dung lượng từ 100 kWh trở lên bắt buộc phải trang bị hệ thống quản lý pin thông minh (BMS - Battery Management System) có tính năng ngắt mạch tự động khi nhiệt độ cell pin vượt quá 65°C; tích hợp hệ thống dập lửa khí chuyên dụng (Aerosol hoặc Novec 1230/FK-5-1-12) đạt chuẩn NFPA 855 và chứng nhận thử nghiệm chống cháy lan UL 9540A. Khoảng cách an toàn giữa các container pin tối thiểu 3,0 mét. Điều 2: Yêu cầu kỹ thuật đấu nối lưới điện: Biến tần PCS (Power Conversion System) phải hỗ trợ tính năng bám lưới (Grid-forming/Grid-following), khả năng vượt qua sự cố sụt áp thấp (Low Voltage Ride Through - LVRT) và kiểm soát công suất phản kháng tự động để duy trì điện áp điểm đấu nối trong dải ±5% điện áp danh định. Điều 3: Ứng dụng vận hành: Doanh nghiệp được phép sử dụng BESS để lưu trữ điện mặt trời mái nhà dư thừa, dịch chuyển phụ tải (Peak Shaving) và tham gia cung cấp dịch vụ phụ trợ điều tần số cho hệ thống điện quốc gia khi có yêu cầu điều độ.",
+    "sections": [
+      {
+        "heading": "Điều 1: Tiêu chuẩn an toàn PCCC BMS và phòng chống quá nhiệt tế bào pin",
+        "text": "Hệ thống BESS phải trang bị hệ thống BMS cấp tế bào giám sát nhiệt độ, điện áp và dòng điện từng cell pin liên tục 24/7. Tích hợp cảm biến phát hiện sớm khí hydro/CO thoát ra trước khi xảy ra hiện tượng mất kiểm soát nhiệt (Thermal Runaway). Buồng chứa pin phải có hệ thống thông gió chống nổ tự động và bình chữa cháy khí sạch chuyên dụng."
+      },
+      {
+        "heading": "Điều 2: Tiêu chuẩn đấu nối biến tần PCS và chức năng hỗ trợ ổn định lưới",
+        "text": "Hệ thống biến tần PCS lưu trữ phải đáp ứng tiêu chuẩn IEEE 1547 / IEC 62933, hỗ trợ chức năng đáp ứng tần số tự động (F-P droop) và điều chỉnh điện áp (V-Q droop). Khi lưới điện xảy ra sự cố sụt áp ngắn hạn, BESS phải duy trì kết nối trong tối thiểu 1.5 giây để bơm dòng phản kháng hỗ trợ khôi phục điện áp lưới (tính năng LVRT)."
+      },
+      {
+        "heading": "Điều 3: Thủ tục thỏa thuận đấu nối kỹ thuật BESS với Điện lực địa phương",
+        "text": "Chủ đầu tư BESS nộp hồ sơ thỏa thuận đấu nối gồm: Thuyết minh thiết kế kỹ thuật, chứng chỉ xuất xưởng và kết quả thử nghiệm an toàn của pin theo chuẩn UL 9540/IEC 62619, phương án đấu nối rơle bảo vệ. Công ty Điện lực hoàn tất thẩm định và ký Thỏa thuận đấu nối trong vòng 10 ngày làm việc."
       }
     ]
   }

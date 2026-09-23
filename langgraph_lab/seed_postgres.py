@@ -221,6 +221,18 @@ def seed_database():
             # Format vector if pgvector extension is active
             formatted_vec = ("[" + ",".join(str(x) for x in embedding_vec) + "]") if has_vector_ext else embedding_vec
 
+            chunk_metadata = {
+                "section_index": idx + 1,
+                "total_sections": len(sections),
+                "department": doc.get("department", ""),
+                "doc_type": doc.get("docType", ""),
+                "category": category,
+                "effective_date": doc.get("effectiveDate", ""),
+                "legal_basis": doc.get("legalBasis", ""),
+                "target_audience": doc.get("targetAudience", ""),
+                "keywords": doc.get("keywords", [])
+            }
+
             chunk_rows.append((
                 chunk_id,
                 doc_id,
@@ -234,7 +246,7 @@ def seed_database():
                 text,
                 len(text.split()),
                 formatted_vec,
-                json.dumps({"section_index": idx + 1, "department": doc.get("department", "")})
+                json.dumps(chunk_metadata, ensure_ascii=False)
             ))
 
     # Insert Documents
@@ -260,10 +272,15 @@ def seed_database():
         )
         VALUES %s
         ON CONFLICT (id) DO UPDATE SET
+            doc_code = EXCLUDED.doc_code,
+            doc_title = EXCLUDED.doc_title,
+            category = EXCLUDED.category,
+            effective_date = EXCLUDED.effective_date,
             section_heading = EXCLUDED.section_heading,
             content = EXCLUDED.content,
             token_count = EXCLUDED.token_count,
-            embedding = EXCLUDED.embedding;
+            embedding = EXCLUDED.embedding,
+            metadata = EXCLUDED.metadata;
     """
     execute_values(cursor, chunk_insert_sql, chunk_rows)
     print(f"[Seeder] Seeded {len(chunk_rows)} 1536D vector chunks into 'evn_document_chunks'!")
